@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/margin_8"
+        android:text="SORT BY"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/margin_15" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_1"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:id="@+id/pLH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/margin_8"
+        android:text="Price - Low to high"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/margin_15" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_1"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/pHL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/margin_8"
+        android:text="Price - High to low"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/margin_15" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_1"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/popularity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/margin_8"
+        android:text="Popularity"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/margin_15" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_1"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/sort_discount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/margin_8"
+        android:text="Discount"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/margin_15" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_1"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/whatsnew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/margin_8"
+        android:text="What's new"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/margin_15" />
+
+</LinearLayout>

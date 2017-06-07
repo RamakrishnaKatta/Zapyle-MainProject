@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/selectAddress" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="false"
+            android:layout_marginTop="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <RelativeLayout
+                android:layout_width="@dimen/margin_20"
+                android:layout_height="@dimen/margin_20"
+                android:background="@drawable/roundshape_bg_transparent" >
+
+                <ImageView
+                    android:layout_width="@dimen/margin_10"
+                    android:layout_height="@dimen/margin_10"
+                    android:src="@drawable/roundshape_bg_nothing"
+                    android:id="@+id/img"
+                    android:layout_centerInParent="true" />
+            </RelativeLayout>
+
+            TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="STATIC" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView65"
+            android:background="#D5D5D5"
+            android:layout_toLeftOf="@+id/linearLayout7" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="@dimen/margin_15"
+            android:layout_weight="2"
+            android:padding="@dimen/margin_5"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NAME"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/margin_13"
+                android:id="@+id/tv"
+                android:layout_marginLeft="3dp"
+                android:textIsSelectable="false" />
+
+            TextView
+                android:id="@+id/addressText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_5"
+                android:text="Haseeb,ddfdfd"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/margin_13"
+                android:layout_marginLeft="5dp" />
+
+            TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EDIT ADDRESS"
+                android:textColor="#9B9B9B"
+                android:textSize="@dimen/margin_14"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/addressEdit" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

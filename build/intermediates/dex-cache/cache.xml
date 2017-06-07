@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.firebase-firebase-messaging-9.4.0_1b0ee79aabe796dc22d621f39dc2c3ae48919fb3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Downloads/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/support-annotations-23.3.0_0c467a5ca8a57fe4a2bea71c006f067277c12372/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8197651ce1af4d89b47f4545cc720bc4f8611e7d">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.android.gms-play-services-fitness-9.4.0_f99010f8bddae38ed338a2365f89d27e23031e0c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e454c414a069241ee08444d187f2dd3a702596b5">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.android.gms-play-services-maps-9.4.0_febf4a14c14f9d71c340405be892afb4bb468a43/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/internal_impl-23.0.0_d8e3330c991ebcb101f9b66de882b0df9909a550/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e35002351f2d415093a9b564652d4b56be6a0593">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.android.gms-play-services-places-9.4.0_4a2eb7a33b875daf37f199d27066248775075567/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.10/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a5db9a2dd46d84285ef737f65030b74b6e8ee2a4">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/io.fabric.sdk.android-fabric-1.3.10_eb288f8732f9e4f842a9fed6d62d6af3cb00e8d4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.clevertap.android/clevertap-android-sdk/3.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ddfaa0640abd4d55ade438304690683aeeae9153">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.clevertap.android-clevertap-android-sdk-3.1.0_35e84490e71a2a70afe98cdc588533493c1221ca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.citrus.sdk/payment-sdk/3.4.3/retrofitoldRelease/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="aa2d140803bddde843c5ed75e34b5171425c30e7">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/payment-sdk-3.4.3-retrofitoldRelease_dc8a187ec91513eaba4578de443d7af879277e07/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="736d8893fb702f128a153c9d87c9c29724d37872">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-9.4.0_c87fd1c4ac2c6bb3f7f3535fc9937f3efaf89133/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.4.0_506abe7589dda1fc5b6faa54ed932a6fc39047f4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0b060160e7daee343f5315b3da91b0ff2d7eed89">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.android.gms-play-services-location-9.4.0_05c0fd94c9f792f17bc1c6e27cb89616dc744e3a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.4.0_70e4d0155abd0ac86b08f778a3a690924981a70e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.3.0_05181614273cc56e777aaf2adcc50cbc210ae5f8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="954697ee6ea7bdd596babf4f70e8b7a17ca7649e">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.android.gms-play-services-wallet-9.4.0_2527d8311bd3c5615073f76b383ff67395e60fc3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/it.sephiroth.android.library.easing/android-easing/1.0.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="90c8cd98f8c1cd37285d7bf9ea5a9ec6df3a99b6">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/it.sephiroth.android.library.easing-android-easing-1.0.3_00698ec2933620aedb8cb97b641604f0532c63b9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/.gradle/caches/modules-2/files-2.1/org.java-websocket/Java-WebSocket/1.3.0/db2658f013fb163de4a99274c2eb9e17efe535d2/Java-WebSocket-1.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="db2658f013fb163de4a99274c2eb9e17efe535d2">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/Java-WebSocket-1.3.0_1baca61e9917712f4a48e3e7df536e8faabeb0d6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.firebase-firebase-common-9.4.0_a11f1863247c788cc72df21777a2174fa850b25f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7ea53c4458b80e8ea71f7fd6831fa184c501377b">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-9.4.0_25b031ba198c9de616b90c00d5079d5760de59fd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.4.0_ee8c04781ad9554bf844bde692ec4521ee08448e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="34762013d39dbe6c656050589c44e8b61b9a2c5d">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.4.0_95e0b86895c35f4560476429b4ce920827f10349/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.firebase-firebase-crash-9.4.0_24a19f2ff7284e1604a07cf8c78f48566c388571/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="59a16a4a42d25b2c243dd1e8aea87d06895b4a06">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.android.gms-play-services-iid-9.4.0_f6f41c5bf8499ec1ae923be37faedcdc95c25a4c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.firebase-firebase-auth-9.4.0_1e16716f8e5e20b396ced0dcd3a3b82b97107576/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ece40b09e9d4d488bc270cf6af5a9af73bc1cfa3">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.android.gms-play-services-gcm-9.4.0_d567f823715bd53a150e218b7f5caf321a78d761/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a432629397351d3ec7f27a23d258b229b81af08f">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.android.gms-play-services-cast-9.4.0_25c63cf3328af6609460856e6eed0e338278ccae/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/io.branch.sdk.android/library/1.14.5/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="032284b53a80414a4ef8eb3ee76be76ba9bc8c8e">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/io.branch.sdk.android-library-1.14.5_0b493e7005c417aba70df1f4a49e53185f58fb0d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="dd51b31890731591729f046d7a09c4fe4e483ed1">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.android.gms-play-services-plus-9.4.0_fc54c1c8a44411e08a987f8171f066cc5501ce3b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/io.branch.invite.sdk.android/library/0.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="9e76243d3c695e6f3a716904b7bfc0ce1d0fbd87">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/io.branch.invite.sdk.android-library-0.1.0_9d820c9fdb22b44690895ed2abbf4af7f69da741/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/.gradle/caches/modules-2/files-2.1/com.facebook.rebound/rebound/0.3.8/c8b90640dddaf1e7ad75d7cb00b09a44b3788f7e/rebound-0.3.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c8b90640dddaf1e7ad75d7cb00b09a44b3788f7e">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/rebound-0.3.8_6293eb29678a9d3deab0265df09065ebc6cf8919/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.android.support-recyclerview-v7-23.3.0_9721004caf863099aef23cd61e1a524c48773002/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.android.gms-play-services-base-9.4.0_90afb4c5867dff185d8f5e17f1aa91d8e45bcc34/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.3.0/1b355f73402020c5a0dcca58affc3ec3dfeabac1/okio-1.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1b355f73402020c5a0dcca58affc3ec3dfeabac1">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/okio-1.3.0_4f15054c01a43a78de1920cd36783977cd0bdbcc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/bolts-android-1.2.0_5289377807369bea1809ed0364dbd9919fbac766/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-9.4.0_f64aba1f78f24c39933f84b5b2f2c8e1cdfa1160/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="03829a2618892d438a1f59c6286699ca1f476e93">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-9.4.0_b0cbfaeb09166059c1b4231c7c5f47e02bbd02c5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/incremental-classes/production/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7c64e94e1510391b768c070e7fc7ac45b9840e67">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/instant-run-bootstrap_b48d83f5ebc85e12220f27889422139c28c95c06/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/internal_impl-23.3.0_9dff8093b3c8a19676190c806651468bc7858000/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7bc6ea2bcfd6de4b7085e0f3a01616c5c8e0e2ad">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-9.4.0_568f1fe719e4ef29d9bb7b2876eadef064e15fe3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.19/a8f23f65fc1e522ee4a1a697ee569901a46741fa/library-1.0.19.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/library-1.0.19_ee4dfdf75efec925854ce043e6a5d34c6f4cb2ed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.3.0/2e7bc7033dc2c8423e661224171b3133fb155b28/okhttp-2.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2e7bc7033dc2c8423e661224171b3133fb155b28">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/okhttp-2.3.0_a9fd163db086c633a1465049ddf7b7a70373d861/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics/2.5.5/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="611605b6b640c1558f9bdea41de8ff837ab68ca8">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.crashlytics.sdk.android-crashlytics-2.5.5_f9b2eee7469319014b5eba1078a16a351ab8503c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6bc41d9d6fd12d2ef23c785a259011001f4a1a5b">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.4.0_85c61ab82836de1f44f82ca53e1c1498fc9385f3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/answers/1.3.6/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="9af3b9b8114e685291aa00e6572b0a9131244956">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.crashlytics.sdk.android-answers-1.3.6_974f58a000c2044b2f890cdef24966bccb7ce76f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d49118ba67a101c4895f0581f17142cba85b330b">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.android.gms-play-services-panorama-9.4.0_1e587d46d8ab132bbd71ba692e4ddfa19d35cbb8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4348dd26d83b56c2058b768222c3271bce911724">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.android.gms-play-services-auth-9.4.0_0019462b863497c76d5624898e2c537b4bd64f5a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="98e97da89d4df8e2f6eba63498d3d46a587372f2">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.firebase-firebase-storage-9.4.0_0c4133dd6466e38563b3c8bd6080286bebdfdbea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/.gradle/caches/modules-2/files-2.1/de.greenrobot/eventbus/2.4.0/ddd166d01b3158d1c00576d29f7ed15c030df719/eventbus-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/eventbus-2.4.0_cc69f9966810ebb29e994d098cfcf6fdb7f83e5c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b15f898c9047f9d612a63000126b485dd024eaac">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.android.gms-play-services-gass-9.4.0_92badfa71139774d615e80d5467dd45063ab4328/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e6e2251f3d3abf4eecd6bf6919d41fc7af497852">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.android.gms-play-services-games-9.4.0_70f81c17f5249ed0d196a1dd425f09084ab0275d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.4.0_bb9a6920cf119dbe2cbfb9bac9a911df44137f0a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ba47b210d36301e237ccfea860eaada04590f12a">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.android.gms-play-services-analytics-9.4.0_0db785a01be5728760be76c54a02fed87449e2b7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.android.gms-play-services-ads-9.4.0_ca0bcb53a549b67b50409135abc44eed56603fdf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c10df7344e31161852c20bb8143fc37319aa10ec">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-9.4.0_3a0b9cdb260359881b4706f8644f33307af7c221/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/incremental-runtime-classes/production/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d035b23b93c83ea8d8d08ed90a0402f5f2b482f8">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/instant-run_55c0da78056999fb81c04d4f41095dac4fbf1226/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-9.4.0_7a42afdc44587f674b049da3f2da3a0600daa0ee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="40da745b1ae1f5b7562242e27dbc91a6b0fab3e9">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.facebook.android-facebook-android-sdk-4.2.0_7226a4becd19b3c9fa632640ea3fc1b779ddd64a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.android.support-mediarouter-v7-23.0.0_5120dc275c5d3df4e30f8abfe04818f24d0f78e5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/beta/1.1.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ad5bb101ced4d3939225c9b57e5a3d81547c1fbb">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.crashlytics.sdk.android-beta-1.1.4_b1d4bccef6947eb32351eb28ef0eb07dde332de9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/retrofit-1.9.0_21ed767ef56f6e2e94479402558a3943265a5f76/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.android.support-support-v4-23.3.0_f562d03b63559edac335d7f98c7a5f7ad5aa6363/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="82ce13fd19cdfde0e392f03c27edeba8d4333648">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.android.support-cardview-v7-23.3.0_c279fe16bee8dec3a9da7e50a584d3f41af143c5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8ce5e7a4a146dddd1d9e66b09c714a6c149916d8">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.android.gms-play-services-drive-9.4.0_1aacfb088c6866a4ef6e916d49bed4817313f940/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.orhanobut/logger/1.8/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="905a1a3170bf8e5f07e14217f5bdc2348f1425ca">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.orhanobut-logger-1.8_3d3afb3c3a75b9826f7438de5a4895433a2f4a99/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.android.support-design-23.3.0_73f096d53867fca371f80cf7c1b332e46b404c95/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.firebase-firebase-iid-9.4.0_603301fed182dd841e59284662e3bffdc2ad998c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.naver.android.helloyako/imagecropview/1.0.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d659d6141ea4fd05945d223c0715b5e40f4e1058">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.naver.android.helloyako-imagecropview-1.0.3_928c823299a583b187de76a4531e09b49347a40d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.sromku/simple-fb/4.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ddfd03548046464a67bd54c337f5a5394560f0bc">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.sromku-simple-fb-4.0.4_27bb12514f4eb8fdd42ae96bc8466e8d478ef145/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="58c9f5ee817fdb8b658fd7455fadfb74119f7ee9">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-9.4.0_7f3533b06253b9b2a2f5ab5d08136e65a0be4185/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="461e4257888c25ec05abcd91e758fe7f4949230a">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.android.gms-play-services-nearby-9.4.0_b161c4ea0aad362c104615e792eb57e5791aa004/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.facebook.conceal/conceal/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ed142991f9497e297a853cdcaaca7bc09d4cfa37">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.facebook.conceal-conceal-1.0.1_ccb07b2f576a28e3085b25cbbed747990dd2ff84/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-urlconnection/2.3.0/4f12ec1e1455909e1f0b8530c719c90b2d01745/okhttp-urlconnection-2.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="04f12ec1e1455909e1f0b8530c719c90b2d01745">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/okhttp-urlconnection-2.3.0_c0a2c2d91548b84f0edce5dfe51cf0d73da17b54/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.android.support-support-vector-drawable-23.3.0_3fb21c0192fa819f326b89175230a3fe6d4dfee8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.github.freshdesk/hotline-android/1.0.15/jars/libs/hotline.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2993e40b70e6ceb5ba3c164d3c6c33967ab9059d">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/hotline_6bfd1c92d41051a23d542e74f7e7c67b29e2acd0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/io.branch.external.answersshim/answers-shim/0.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="42e4c84d64f98270d72f8672c72ca029488f769e">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/io.branch.external.answersshim-answers-shim-0.0.4_463f17b4a70d0648650aeab4643bf0a2ff2ff54e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="dab6944860c986980dcc6002a5ca2f127b587317">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.firebase-firebase-config-9.4.0_159df6b2c278e38c14633a24a5ba16d5837693d6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c8f5d56f8f8a287c95e02c542baade138a378048">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.firebase-firebase-storage-common-9.4.0_e363854c1f197d0765a34ce67ef339d55b67a6cd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b1acf13f1b7d8232af78a30833f9a966d1394c84">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.android.gms-play-services-wearable-9.4.0_ee2ba4965d0a2cf123c4a76af83827fea094d432/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.firebase-firebase-database-9.4.0_573d0b37e40b336592998f5ea359277b3ec393a6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.android.support-appcompat-v7-23.3.0_5dea604080378f4d1d2461a029751fac22f9329d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.4.0_b4d7b24e372f1ca55c138c9395ef471e008d035e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/glide-3.7.0_ee4d291db70c986bc2fecc7d786522e0fef12f8e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0ad33eb600f3d80bdff5ce355c90d5533ade652a">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-9.4.0_a5346e42e69dd03006a458d35d36cca13cf0c470/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics-core/2.3.8/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c9ef45dcbd082cd63aac09a5e2cd443adb5df837">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.crashlytics.sdk.android-crashlytics-core-2.3.8_f23c93540f998bbdc8e8009d399c181c6e8af523/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5e04c0b3683ca45b343284d93e5594b5f9044551">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.android.gms-play-services-identity-9.4.0_f26522364a3b2fc83e3ee8d088d54c60b9c53c99/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.android.support-multidex-1.0.1_7ad0e136df1a4c167dfc1428e723004916cdc818/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e5e8e535d15834e824817bdf5370556f62b4b2a5">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-9.4.0_dbea89db7a6dd3fa20e739255f9c60ecd6130f91/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/gson-2.3.1_92135505d63fae0385d20480e623688a639f7569/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.github.freshdesk/hotline-android/1.0.15/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d5dc79733d716f989136025557b4ab65f25cd01b">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.github.freshdesk-hotline-android-1.0.15_1b4457743957efd466d69c78d80c9f6f667a0136/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-contextmanager/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="72eacac37fc64e95d53abd2a041bf81a952d8615">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.android.gms-play-services-contextmanager-9.4.0_4f637fd8a7d1782ae817810295bc9afc1df72d32/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="670df81539ab71918d49b186598b7eff08ef6563">
+        <dex dex="/home/zapyle/Documents/zaple_stable-playstore ver60/zapyleapp/ANDROID_JULY/sep21-1/android-dev-version/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/com.google.android.gms-play-services-vision-9.4.0_0f8b84cbd4e84e10cf2533a562910197b0050c34/classes.dex" />
+    </item>
+
+</items>

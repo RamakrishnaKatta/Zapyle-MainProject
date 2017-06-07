@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FDFDFD"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgclose"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/close"
+        android:padding="11dp"
+        android:background="#000000" />
+    <LinearLayout
+        android:layout_below="@id/imgclose"
+        android:id="@+id/main_ly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter CVV"
+            android:layout_marginTop="@dimen/margin_5"
+            android:layout_marginBottom="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_30"
+            android:layout_marginLeft="@dimen/margin_30"
+            android:textColor="#4A4A4A"
+            android:textSize="@dimen/text_size_xxlarge"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DADADA"/>
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="PLEASE NOTE"-->
+            <!--android:layout_marginTop="@dimen/margin_20"-->
+            <!--android:layout_marginBottom="@dimen/margin_15"-->
+            <!--android:layout_marginRight="@dimen/margin_30"-->
+            <!--android:layout_marginLeft="@dimen/margin_30"-->
+            <!--android:textSize="@dimen/text_size_medium"-->
+            <!--android:textColor="#9B9B9B"-->
+            <!--/>-->
+        <EditText
+            android:id="@+id/cvv_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:layout_marginRight="@dimen/margin_40"
+            android:layout_marginLeft="@dimen/margin_40"
+            android:layout_marginTop="@dimen/margin_30"
+            android:textSize="@dimen/text_size_large"
+            android:gravity="center"
+            android:inputType="number"
+            android:textColor="#4A4A4A"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/main_ly"
+        android:id="@+id/summary_bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="@dimen/margin_20"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/proceed_cvv"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ff7477"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="gotofeed"
+            android:text="CONFIRM"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_medium"
+            android:layout_weight="1.3"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

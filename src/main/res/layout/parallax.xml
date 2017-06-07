@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    android:background="@android:color/black">
+
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"></ScrollView>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center">
+        <LinearLayout
+            android:id="@+id/l1viral"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/margin_20">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Hey There !"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="You have been refered by your friend"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tvreferalname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_horizontal"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textColor="@android:color/white"
+                android:text="Sign up now to get Rs 200 off"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="your first purchase"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/testimonialLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_30"
+            android:layout_marginRight="@dimen/margin_30"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible">
+            <!--<ImageView-->
+                <!--android:id="@+id/testbg"-->
+                <!--android:layout_width="40dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:paddingBottom="@dimen/margin_5"-->
+                <!--android:src="@drawable/testimonials1"-->
+                <!--/>-->
+            <TextView
+                android:id="@+id/TestimonialText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_5"
+                android:layout_marginLeft="@dimen/margin_5"
+                android:layout_marginRight="@dimen/margin_3"
+                android:layout_marginTop="@dimen/margin_5"
+                android:gravity="center"
+                android:text="I made 45,000 in a month by sharing my closet on zapyle"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_xlarge"
+                android:textStyle="italic"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_20"
+                android:layout_marginRight="@dimen/margin_3"
+                android:layout_below="@+id/TestimonialText"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/TestimonialAuthor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="Priyanka Vinod"
+                    android:gravity="center"
+                    android:textColor="#9B9B9B"
+                    android:textSize="@dimen/margin_15"
+                    android:textStyle="normal" />
+                <TextView
+                    android:layout_below="@+id/TestimonialAuthor"
+                    android:id="@+id/TestimonialZapAuthor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="priyanka_v"
+                    android:gravity="center"
+                    android:textColor="#9B9B9B"
+                    android:textSize="@dimen/margin_15"
+                    android:textStyle="normal" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <View
+            android:layout_width="50dp"
+            android:layout_height="1dp"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:layout_marginTop="@dimen/margin_10"
+            android:background="#9B9B9B" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="bottom">
+
+        <utils.FacebookCustomLoginButton
+            android:id="@+id/login_button"
+            android:layout_marginRight="@dimen/margin_20"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="0dp"
+            android:background="#3B5998"
+            android:gravity="center_vertical|center_horizontal"
+            android:scaleType="centerInside"
+            android:text="Facebook"
+            android:textSize="@dimen/text_size_medium"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/insta_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginRight="@dimen/margin_20"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginBottom="5dp"
+            android:background="#9455B0"
+            android:gravity="center_vertical|center_horizontal"
+            android:scaleType="centerInside"
+            android:text=" Instagram"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/text_size_medium"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EMAIL"
+            android:textColor="#9B9B9B"
+            android:textStyle="normal"
+            android:textSize="@dimen/text_size_large"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/margin_10"
+            android:layout_marginBottom="@dimen/margin_10"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_5"
+            android:layout_marginRight="@dimen/margin_20"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:weightSum="2">
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/email_button"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#FF7474"
+                android:gravity="center_vertical|center_horizontal"
+                android:scaleType="centerInside"
+                android:text=" Sign in"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/text_size_medium"
+                android:textStyle="normal"
+                android:layout_marginRight="@dimen/margin_5"/>
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/signup_button"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#FF7474"
+                android:layout_marginLeft="@dimen/margin_5"
+                android:gravity="center_vertical|center_horizontal"
+                android:scaleType="centerInside"
+                android:text=" Sign up"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/text_size_medium"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+
+
+        <!-- -->
+        <!--<Button-->
+            <!--android:id="@+id/email_button"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_marginRight="@dimen/margin_20"-->
+            <!--android:layout_marginLeft="@dimen/margin_20"-->
+            <!--android:background="#FF7474"-->
+            <!--android:gravity="center_vertical|center_horizontal"-->
+            <!--android:scaleType="centerInside"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:textSize="@dimen/text_size_medium"-->
+            <!--android:textStyle="normal" />-->
+        <LinearLayout
+            android:id="@+id/l1continue"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:visibility="visible"
+            android:layout_margin="@dimen/margin_8">
+
+            <TextView
+                android:id="@+id/GuestLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:text="Continue as Guest"
+                android:textColor="@android:color/white"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/terms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="hggshghggg kdhhghdhd hgdhd"
+            android:textColor="#000000"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

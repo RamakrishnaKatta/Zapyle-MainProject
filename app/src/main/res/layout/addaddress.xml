@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_above="@+id/AddButton"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_10">
+
+        <LinearLayout
+            android:id="@+id/layout_feilds_addresses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/margin_16"
+            android:visibility="visible">
+
+            <EditText
+                android:id="@+id/edittext_postcode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_16"
+                android:layout_marginRight="@dimen/margin_16"
+                android:layout_marginTop="@dimen/margin_16"
+                android:background="@drawable/background_edittext"
+                android:hint="@string/hint_postcode"
+                android:inputType="number"
+                android:maxLength="6"
+                android:padding="@dimen/margin_10"
+                android:textSize="14sp"
+                android:singleLine="true"
+                android:lines="1"/>
+
+
+
+            <EditText
+                android:id="@+id/edittext_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_16"
+                android:layout_marginRight="@dimen/margin_16"
+                android:layout_marginTop="@dimen/margin_16"
+                android:background="@drawable/background_edittext"
+                android:hint="@string/hint_name"
+                android:padding="@dimen/margin_10"
+                android:textSize="14sp"
+                android:singleLine="true"
+                android:lines="1"
+                android:maxLength="25"
+                />
+
+
+            <EditText
+                android:id="@+id/edittext_Address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_16"
+                android:layout_marginRight="@dimen/margin_16"
+                android:layout_marginTop="@dimen/margin_16"
+                android:background="@drawable/background_edittext"
+                android:hint="@string/hint_address"
+                android:padding="@dimen/margin_10"
+                android:textSize="14sp"
+                android:singleLine="false"
+                android:lines="1"
+                android:maxLength="200"/>
+
+            <EditText
+                android:id="@+id/edittext_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_16"
+                android:layout_marginRight="@dimen/margin_16"
+                android:layout_marginTop="@dimen/margin_16"
+                android:background="@drawable/background_edittext"
+                android:hint="@string/hint_city"
+                android:padding="@dimen/margin_10"
+                android:textSize="14sp"
+                android:singleLine="true"
+                android:lines="1"
+                android:maxLength="20"/>
+
+            <Spinner
+                android:id="@+id/spinner_state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_16"
+                android:layout_marginRight="@dimen/margin_16"
+                android:layout_marginTop="@dimen/margin_16"
+                android:background="@drawable/background_edittext"
+                android:hint="@string/hint_state"
+                android:padding="@dimen/margin_12"
+                android:spinnerMode="dropdown"
+                android:textSize="14sp" />
+
+            <!--<EditText-->
+                <!--android:id="@+id/edittext_country"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="@dimen/margin_16"-->
+                <!--android:layout_marginRight="@dimen/margin_16"-->
+                <!--android:layout_marginTop="@dimen/margin_16"-->
+                <!--android:background="@drawable/background_edittext"-->
+                <!--android:hint="@string/hint_country"-->
+                <!--android:padding="@dimen/margin_10"-->
+                <!--android:text="India"-->
+                <!--android:textSize="14sp"-->
+                <!--android:singleLine="true"-->
+                <!--android:lines="1"-->
+                <!--android:maxLength="15"/>-->
+
+
+            <EditText
+                android:id="@+id/edittext_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_16"
+                android:layout_marginRight="@dimen/margin_16"
+                android:layout_marginTop="@dimen/margin_16"
+                android:background="@drawable/background_edittext"
+                android:hint="@string/hint_phone"
+                android:inputType="number"
+                android:maxLength="10"
+                android:padding="@dimen/margin_10"
+                android:textSize="14sp"
+                android:singleLine="true"
+                android:lines="1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_16"
+                android:layout_marginRight="@dimen/margin_16"
+                android:layout_marginTop="@dimen/margin_16"
+                android:gravity="center"
+                android:text="All fields are mandatory.."
+                android:textColor="@android:color/holo_red_dark"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/AddButton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="@dimen/margin_10"
+        android:background="#ff7477"
+        android:onClick="onSaveAddress"
+        android:text="@string/label_save_address"
+        android:layout_alignParentBottom="true"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp" />
+
+   <ProgressBar        android:indeterminate="true"                 android:indeterminateDrawable="@drawable/progress_new"
+        android:id="@+id/addaddress_progressBar"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+</RelativeLayout>

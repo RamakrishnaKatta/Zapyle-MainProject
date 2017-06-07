@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:layout_marginLeft="@dimen/margin_5"
+    android:layout_marginTop="@dimen/margin_1"
+    android:layout_marginRight="@dimen/margin_5"
+    android:layout_marginBottom="@dimen/margin_1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/margin_5"
+        android:layout_marginTop="@dimen/margin_10"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:layout_marginBottom="@dimen/margin_10"-->
+            <!--android:background="#FBFBFB" />-->
+
+        <TextView
+            android:id="@+id/closet_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_10"
+            android:text="Featured Closet"
+            android:textSize="@dimen/text_size_medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/closet_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/margin_10"
+            android:paddingRight="@dimen/margin_10"
+            android:text="Deepika is now on Zapyle. Checkout Deepika's closet and admire her closet" />
+
+        <TextView
+            android:id="@+id/closet_admire"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_marginTop="@dimen/margin_10"
+            android:background="@drawable/discover_admire_bg"
+            android:gravity="center"
+            android:paddingLeft="@dimen/margin_10"
+            android:paddingRight="@dimen/margin_10"
+            android:text="Admire"
+            android:textColor="@android:color/white" />
+
+        <!--<HorizontalScrollView-->
+        <!--android:id="@+id/closet_horizontal_scrollview"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="@dimen/margin_10"-->
+        <!--android:layout_marginBottom="@dimen/margin_10"-->
+        <!--android:scrollbars="none"-->
+        <!--&gt;-->
+
+        <!--</HorizontalScrollView>-->
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/closet_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:layout_marginTop="@dimen/margin_10">
+
+
+        </android.support.v4.view.ViewPager>
+
+
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp" />-->
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

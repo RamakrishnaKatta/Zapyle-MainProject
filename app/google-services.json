@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "1038239410729",
+    "project_id": "zapyle-1033"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038239410729:android:a36b6c9c3189156d",
+        "android_client_info": {
+          "package_name": "com.zapyle.sociallogin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8Sm-HIXgrla16idKz4R4A2JmghN_Mei8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038239410729:android:4fbc9d2e34fa0c4e",
+        "android_client_info": {
+          "package_name": "com.zapyle.zapyle"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8Sm-HIXgrla16idKz4R4A2JmghN_Mei8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-79975527-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

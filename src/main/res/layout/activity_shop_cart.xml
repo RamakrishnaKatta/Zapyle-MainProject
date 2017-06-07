@@ -1,0 +1,242 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:background="#F5F5F5"
+        android:gravity="center_horizontal"
+        android:paddingBottom="@dimen/margin_7"
+        android:paddingTop="@dimen/margin_7">
+
+
+        <ImageView
+            android:id="@+id/imgback"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="3dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="3dp"
+            android:visibility="gone"
+            android:src="@drawable/appvirality_prev_grey"
+            android:textAlignment="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/edtsearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="false"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="0dp"
+                android:hint="Tote"
+                android:paddingLeft="3dp"
+                android:textColor="#4a4a4a"
+                android:textSize="22dp" />
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/imgsearch"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <ImageView
+                android:id="@+id/imgiconnew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:paddingTop="10dp"
+                android:src="@drawable/chat" />
+
+            <TextView
+                android:id="@+id/chatcount"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_alignEnd="@+id/imgiconnew"
+                android:layout_alignRight="@+id/imgiconnew"
+                android:layout_centerVertical="true"
+                android:layout_gravity="top"
+                android:background="@drawable/circle_boarder_color"
+                android:gravity="center"
+                android:text="  "
+                android:textAlignment="gravity"
+                android:textColor="#ffffff"
+                android:textSize="9dp"
+                android:visibility="visible" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/imgsearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <ImageView
+                android:id="@+id/imgicon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:src="@drawable/cartbutton" />
+
+            <TextView
+                android:id="@+id/tvcount"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_alignEnd="@+id/imgicon"
+                android:layout_alignRight="@+id/imgicon"
+                android:layout_centerVertical="true"
+                android:layout_gravity="top"
+                android:background="@drawable/circle_boarder_color"
+                android:gravity="center"
+                android:text="  "
+                android:textAlignment="gravity"
+                android:textColor="#ffffff"
+                android:textSize="9dp"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/rl"
+        android:background="#FFFFFF"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/tvcnt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/background_edittext_white"
+            android:hint="Tote"
+            android:paddingLeft="3dp"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tvtotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/background_edittext_white"
+            android:paddingLeft="3dp"
+            android:text="10000"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/tvtotal"
+            android:layout_toStartOf="@+id/tvtotal"
+            android:background="@drawable/background_edittext_white"
+            android:paddingLeft="3dp"
+            android:text="Total "
+            android:textSize="18dp" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/relativeLayout8"
+        android:layout_below="@+id/relativeLayout7"
+        android:background="#FFFFFF" />
+
+
+    <ProgressBar
+        android:id="@+id/shop_progressBar"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_centerInParent="true"
+        android:indeterminate="true"
+        android:indeterminateDrawable="@drawable/custom_progressbar_background"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ff7477"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/next"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="PROCEED TO CHECKOUT"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/emptyCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="Hey your tote in empty. Discover"
+        android:textColor="#4a4a4a"
+        android:textSize="@dimen/text_size_large"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

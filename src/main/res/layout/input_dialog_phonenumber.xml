@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin_10"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="VERIFY PHONE NUMBER"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/margin_15"
+        android:layout_margin="@dimen/margin_10"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin_10"
+        android:gravity="center_horizontal|center_vertical">
+
+        <EditText
+            android:id="@+id/phonenumber"
+            android:layout_width="@dimen/margin_150"
+            android:layout_height="wrap_content"
+            android:hint="ENTER PHONE NUMBER"
+            android:gravity="center"
+            android:textSize="@dimen/margin_12"
+            android:inputType="number"/>
+    </LinearLayout>
+
+
+</LinearLayout>

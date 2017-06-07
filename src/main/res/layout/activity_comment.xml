@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/comment_main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/margin_6"
+    android:paddingLeft="@dimen/margin_6"
+    android:paddingRight="@dimen/margin_6"
+    android:paddingTop="@dimen/margin_6"
+    tools:context="com.zapyle.zapyle.Comment">
+
+
+    <!--<ListView-->
+    <!--android:id="@+id/commentListView"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_above="@+id/commentholder"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:layout_gravity="top"-->
+    <!--android:scrollbars="none">-->
+    <!--</ListView>-->
+
+
+    <ScrollView
+        android:id="@+id/comment_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/commentholder"
+        android:layout_alignParentTop="true">
+
+    </ScrollView>
+
+
+    <ScrollView
+        android:id="@+id/mentionListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/commentholder"
+        android:layout_alignTop="@+id/comment_scrollview"
+        android:background="@drawable/scroll_border"
+        android:visibility="gone"></ScrollView>
+
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/EmptyAddressHolder"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="@dimen/margin_40"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:gravity="center_vertical|center_horizontal"-->
+    <!--android:orientation="vertical"-->
+    <!--android:visibility="visible">-->
+
+
+    <TextView
+        android:id="@+id/EmptyAddressHolder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Be the first to comment"
+        android:visibility="gone" />
+
+
+    <!--</LinearLayout>-->
+
+
+    <RelativeLayout
+        android:id="@+id/commentholder"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editCommenText"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/sendComment"
+            android:background="#FAFAFA"
+            android:ems="10"
+            android:hint="Add a comment"
+            android:maxLength="200"
+            android:textSize="@dimen/margin_14" />
+
+        <ImageButton
+            android:id="@+id/sendComment"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/commentsmall"
+            android:clickable="true" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/Commment_progressBar"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_centerInParent="true"
+        android:indeterminate="true"
+        android:indeterminateDrawable="@drawable/custom_progressbar_background"
+        android:visibility="gone" />
+</RelativeLayout>
+

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:padding="@dimen/margin_5">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:gravity="center|left"
+        android:layout_toLeftOf="@+id/l_admire_layout"
+        android:layout_marginRight="@dimen/margin_5"
+        android:orientation="horizontal">
+
+        <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/l_pic"
+            android:layout_width="@dimen/margin_45"
+            android:layout_height="@dimen/margin_45"
+            android:layout_margin="@dimen/margin_10"
+            android:scaleType="centerCrop"
+            app:riv_corner_radius="30dip"
+            app:riv_mutate_background="true"
+            app:riv_oval="true" />
+
+        <TextView
+            android:id="@+id/l_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Priyanka Vinod"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textColor="#4a4a4a"
+            android:textSize="@dimen/margin_14"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/l_admire_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/margin_45"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/margin_10"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/l_admire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/margin_15"
+            android:paddingLeft="@dimen/margin_15"
+            android:paddingTop="@dimen/margin_5"
+            android:paddingBottom="@dimen/margin_5"
+            android:text="Admire"
+            android:textColor="#ff7477"
+            android:background="@drawable/brand_unfollow_bg"/>
+
+    </LinearLayout>
+</RelativeLayout>

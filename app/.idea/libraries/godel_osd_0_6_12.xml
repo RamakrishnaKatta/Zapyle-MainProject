@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="godel-osd-0.6.12">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/build/intermediates/exploded-aar/in.juspay/godel-osd/0.6.12/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/build/intermediates/exploded-aar/in.juspay/godel-osd/0.6.12/res" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/exploded-aar/in.juspay/godel-osd/0.6.12/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

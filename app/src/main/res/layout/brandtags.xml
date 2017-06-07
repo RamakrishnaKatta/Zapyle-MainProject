@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlbrandtag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomLayout"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:id="@+id/linearBrand"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical"></LinearLayout>
+
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/bottomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/progressLayout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <ProgressBar
+                android:id="@+id/brandtags_progress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:indeterminate="false"
+                android:max="100"
+                android:maxHeight="40dp"
+                android:minHeight="40dp"
+                android:progress="0"
+                android:progressDrawable="@drawable/custom_progressbar" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/next1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignTop="@+id/progressLayout"
+            android:gravity="center"
+            android:text="NEXT"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/ob2progressBar"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:indeterminate="true"
+        android:indeterminateDrawable="@drawable/custom_progressbar_background"
+        android:visibility="gone" />
+
+</RelativeLayout>

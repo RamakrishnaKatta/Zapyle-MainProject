@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="activity.BrandList"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:id="@+id/brandlistlayout">
+    <RelativeLayout
+        android:id="@+id/topLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText android:id="@+id/inputSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Search"
+            android:textSize="@dimen/margin_15"
+            android:layout_margin="@dimen/margin_12"
+            android:inputType="textVisiblePassword"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/search"
+            android:layout_alignTop="@+id/inputSearch"
+            android:layout_alignRight="@+id/inputSearch"
+            android:layout_alignEnd="@+id/inputSearch"
+            android:padding="5dp" />
+    </RelativeLayout>
+
+
+
+    <ListView
+        android:layout_below="@+id/topLayout"
+        android:id="@+id/list"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#FFFFFF"
+        android:choiceMode="singleChoice">
+    </ListView>
+
+   <ProgressBar
+       android:indeterminate="true"
+       android:indeterminateDrawable="@drawable/progress_new"
+        android:layout_below="@+id/list"
+        android:id="@+id/brand_progressBar"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

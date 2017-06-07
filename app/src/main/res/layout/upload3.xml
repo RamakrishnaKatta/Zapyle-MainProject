@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottomLayout"
+
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/margin_5">
+
+        <ScrollView
+            android:id="@+id/address_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/addressLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_5"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/addaddress_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal|center_vertical|left"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/margin_8">
+
+                    <ImageView
+                        android:id="@+id/addSign"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/bigplus" />
+
+                    <TextView
+                        android:id="@+id/formlabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_8"
+                        android:text="ADD NEW ADDRESS"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_feilds_addresses"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/layout_add_address"
+                    android:animateLayoutChanges="true"
+                    android:background="@android:color/white"
+                    android:isScrollContainer="false"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/margin_16"
+                    android:visibility="gone">
+
+                    <EditText
+                        android:id="@+id/edittext_postcode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_16"
+                        android:layout_marginRight="@dimen/margin_16"
+                        android:layout_marginTop="@dimen/margin_16"
+                        android:background="@drawable/background_edittext"
+                        android:hint="@string/hint_postcode"
+                        android:inputType="number"
+                        android:lines="1"
+                        android:maxLength="6"
+                        android:padding="@dimen/margin_10"
+                        android:singleLine="true"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/edittext_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_16"
+                        android:layout_marginRight="@dimen/margin_16"
+                        android:layout_marginTop="@dimen/margin_16"
+                        android:background="@drawable/background_edittext"
+                        android:hint="@string/hint_name"
+                        android:lines="1"
+                        android:maxLength="30"
+                        android:padding="@dimen/margin_10"
+                        android:singleLine="true"
+                        android:textSize="14sp" />
+
+
+                    <EditText
+                        android:id="@+id/edittext_Address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_16"
+                        android:layout_marginRight="@dimen/margin_16"
+                        android:layout_marginTop="@dimen/margin_16"
+                        android:background="@drawable/background_edittext"
+                        android:hint="@string/hint_address"
+                        android:lines="1"
+                        android:maxLength="50"
+                        android:padding="@dimen/margin_10"
+                        android:singleLine="true"
+                        android:textSize="14sp" />
+
+
+                    <EditText
+                        android:id="@+id/edittext_city"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_16"
+                        android:layout_marginRight="@dimen/margin_16"
+                        android:layout_marginTop="@dimen/margin_16"
+                        android:background="@drawable/background_edittext"
+                        android:hint="@string/hint_city"
+                        android:lines="1"
+                        android:maxLength="20"
+                        android:padding="@dimen/margin_10"
+                        android:singleLine="true"
+                        android:textSize="14sp" />
+
+                    <Spinner
+                        android:id="@+id/spinner_state"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_16"
+                        android:layout_marginRight="@dimen/margin_16"
+                        android:layout_marginTop="@dimen/margin_16"
+                        android:background="@drawable/background_edittext"
+                        android:hint="@string/hint_state"
+                        android:padding="@dimen/margin_12"
+                        android:spinnerMode="dropdown"
+                        android:textSize="14sp" />
+
+                    <!--<EditText-->
+                    <!--android:id="@+id/edittext_country"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginLeft="@dimen/margin_16"-->
+                    <!--android:layout_marginRight="@dimen/margin_16"-->
+                    <!--android:layout_marginTop="@dimen/margin_16"-->
+                    <!--android:background="@drawable/background_edittext"-->
+                    <!--android:hint="@string/hint_country"-->
+                    <!--android:padding="@dimen/margin_10"-->
+                    <!--android:text="India"-->
+                    <!--android:textSize="14sp"-->
+                    <!--android:maxLength="20"-->
+                    <!--android:singleLine="true"-->
+                    <!--android:lines="1"/>-->
+
+
+                    <EditText
+                        android:id="@+id/edittext_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_16"
+                        android:layout_marginRight="@dimen/margin_16"
+                        android:layout_marginTop="@dimen/margin_16"
+                        android:background="@drawable/background_edittext"
+                        android:hint="@string/hint_phone"
+                        android:inputType="number"
+                        android:lines="1"
+                        android:maxLength="10"
+                        android:padding="@dimen/margin_10"
+                        android:singleLine="true"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_16"
+                        android:layout_marginRight="@dimen/margin_16"
+                        android:layout_marginTop="@dimen/margin_16"
+                        android:gravity="center"
+                        android:text="All fields are mandatory.."
+                        android:textColor="@android:color/holo_red_dark"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/AddButton"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:background="#ff7477"
+            android:gravity="center_horizontal|center_vertical"
+            android:onClick="onSaveAddress"
+            android:text="@string/label_save_address"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/upload_next3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:background="#ff7477"
+            android:gravity="center_horizontal|center_vertical"
+            android:onClick="upload_next3"
+            android:text="DONE"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/address_progressBar"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_centerInParent="true"
+        android:indeterminate="true"
+        android:indeterminateDrawable="@drawable/custom_progressbar_background"
+        android:visibility="gone" />
+</RelativeLayout>

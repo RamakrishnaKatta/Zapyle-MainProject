@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+
+    <LinearLayout
+        android:id="@+id/reset_password_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/margin_5"
+                android:text="NEW PASSWORD"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_large" />
+
+            <EditText
+                android:id="@+id/new_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="30"
+                android:inputType="textPassword"
+                android:paddingLeft="@dimen/margin_15"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/margin_5"
+                android:text="CONFIRM"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_large" />
+
+            <EditText
+                android:id="@+id/confirm_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="30"
+                android:inputType="textPassword"
+                android:paddingLeft="@dimen/margin_15"/>
+
+            <TextView
+                android:id="@+id/password_match_error"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/margin_5"
+                android:layout_marginTop="@dimen/margin_5"
+                android:textColor="#ff7477"
+                android:gravity="center"
+                android:text="minimum 6 charecters"
+                android:textSize="@dimen/text_size_medium"
+                android:layout_marginBottom="@dimen/margin_5"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/phonenumber_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/margin_5"
+                android:text="ENTER PHONENUMBER"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_large" />
+
+            <EditText
+                android:id="@+id/phonenumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="10"
+                android:inputType="number"
+                android:paddingLeft="@dimen/margin_15"/>
+
+            <TextView
+                android:id="@+id/phone_error"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/margin_5"
+                android:layout_marginTop="@dimen/margin_5"
+                android:textColor="#ff7477"
+                android:gravity="center"
+                android:text="minimum 6 charecters"
+                android:textSize="@dimen/text_size_medium" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/otp_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/otp_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_20"
+            android:text="An OTP has been sent to XXXXXX9274"
+            android:textColor="#4A4A4A"
+            android:textSize="@dimen/text_size_large" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/margin_5"
+                android:text="ENTER OTP"
+                android:textColor="#4A4A4A"
+                android:textSize="@dimen/text_size_large" />
+
+            <EditText
+                android:id="@+id/forgot_otp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="10"
+                android:inputType="number"
+                android:paddingLeft="@dimen/margin_15"/>
+            <TextView
+                android:id="@+id/otp_match_error"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/margin_5"
+                android:layout_marginTop="@dimen/margin_5"
+                android:textColor="#ff7477"
+                android:gravity="center"
+                android:text="minimum 6 charecters"
+                android:textSize="@dimen/text_size_medium"
+                android:layout_marginBottom="@dimen/margin_5"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_25"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/resendOtp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Resend"
+                android:textColor="#ff7477"
+                android:textSize="@dimen/text_size_medium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_25"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/backToLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back to Login"
+                android:textColor="#ff7477"
+                android:textSize="@dimen/text_size_medium" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/Action"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ff7477"
+        android:text="NEXT"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F8F8F8"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/user_image"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="@dimen/margin_10"
+                android:scaleType="centerCrop"
+                app:riv_corner_radius="30dip"
+                app:riv_mutate_background="true"
+                app:riv_oval="true" />
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_23"
+                android:layout_toRightOf="@+id/user_image"
+                android:text="Ritu Kumar"
+                android:textColor="#4A4A4A"
+                android:textSize="@dimen/margin_13"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/admire_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/margin_8"
+                android:layout_marginTop="@dimen/margin_16"
+                android:background="@drawable/brand_unfollow_bg"
+                android:paddingBottom="@dimen/margin_5"
+                android:paddingLeft="@dimen/margin_10"
+                android:paddingRight="@dimen/margin_10"
+                android:paddingTop="@dimen/margin_5"
+                android:text="Admire"
+                android:textColor="#ff7477"
+                android:textSize="@dimen/margin_12" />
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/h_recyclerview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margin_5"
+            android:layout_marginRight="@dimen/margin_5"
+            android:background="@android:color/white"
+            android:orientation="horizontal">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/gotocloset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:layout_marginTop="@dimen/margin_10"
+            android:gravity="center"
+            android:text="Go to closet"
+            android:textColor="#4A4A4A"
+            android:textSize="@dimen/margin_12" />
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

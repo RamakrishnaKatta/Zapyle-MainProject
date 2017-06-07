@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rlparent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rlbotttm"
+        android:background="#ffffff"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deepika&apos;s padukone Closet"
+                android:id="@+id/txttitle"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="normal"
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/txtdescription"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:textAlignment="gravity" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=" New Button"
+                android:gravity="center"
+                android:id="@+id/btclick"
+                android:layout_marginTop="5dp"
+                android:textColor="#FFFFFF"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:background="#ff7477"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/image"
+        android:scaleType="matrix"
+        android:layout_marginTop="0dp"
+        android:visibility="visible"
+        android:layout_above="@+id/rlbotttm"
+        android:background="#FFFFFF" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgclose"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/close"
+        android:padding="10dp"
+        android:background="#000000" />
+</RelativeLayout>

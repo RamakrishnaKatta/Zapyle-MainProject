@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".CreditCardFragment">
+
+    <ScrollView
+        android:layout_above="@+id/load"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_20"
+                android:layout_marginBottom="@dimen/margin_10"
+                android:layout_marginLeft="@dimen/margin_20"
+                android:layout_marginRight="@dimen/margin_20"
+                android:gravity="center_vertical">
+
+                <RadioGroup
+                    android:id="@+id/card_options"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <RadioButton
+                        android:id="@+id/debit_card_option"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Debit"
+                        android:textColor="#4A4A4A"
+                        android:textSize="@dimen/text_size_medium"
+                        android:layout_margin="@dimen/margin_10"/>
+                    <RadioButton
+                        android:id="@+id/credit_card_option"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Credit"
+                        android:textColor="#4A4A4A"
+                        android:textSize="@dimen/text_size_medium"
+                        android:layout_margin="@dimen/margin_10"
+                        />
+
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/cardNameLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cardNumberLayout"
+                android:layout_gravity="top"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3dp"
+                    android:text="NAME"
+                    android:textColor="#9B9B9B"
+                    android:textSize="@dimen/text_size_medium" />
+
+                <EditText
+                    android:id="@+id/cardHolderName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/card_name_hint"
+                    android:inputType="text"
+                    android:paddingLeft="15dp"
+                    android:maxLength="30"
+                    android:paddingRight="8dp"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textCursorDrawable="@null"
+                    android:textSize="@dimen/text_size_medium" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/cardNumberLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3dp"
+                    android:text="CARD NUMBER"
+                    android:textColor="#9B9B9B"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/text_size_medium" />
+
+                <com.citrus.widgets.CardNumberEditText
+                    android:id="@+id/cardHolderNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/card_number_hint"
+                    android:imeOptions="actionNext"
+                    android:inputType="number|none"
+                    android:paddingLeft="15dp"
+                    android:maxLength="25"
+                    android:textColor="@android:color/black"
+                    android:textCursorDrawable="@null"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/expiryLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_below="@+id/cardNameLayout">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="3dp"
+                        android:text="EXPIRY"
+                        android:textColor="#9B9B9B"
+                        android:textSize="@dimen/text_size_medium" />
+
+                    <com.citrus.widgets.ExpiryDate
+                        android:id="@+id/cardExpiry"
+                        android:layout_width="match_parent"
+                        android:layout_height="38dp"
+                        android:ems="4"
+                        android:gravity="left"
+                        android:hint="MM/YY"
+                        android:imeOptions="actionNext"
+                        android:inputType="number|none"
+                        android:maxLength="5"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="8dp"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="@android:color/darker_gray"
+                        android:textCursorDrawable="@null"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:paddingLeft="3dp"
+                        android:text="CVV"
+                        android:textSize="@dimen/text_size_medium"
+                        android:textColor="#9B9B9B" />
+
+                    <EditText
+                        android:id="@+id/cardCvv"
+                        android:layout_width="match_parent"
+                        android:layout_height="38dp"
+                        android:ems="4"
+                        android:gravity="left"
+                        android:hint="***"
+                        android:inputType="numberPassword"
+                        android:maxLength="4"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="8dp"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="@android:color/darker_gray"
+                        android:textCursorDrawable="@null"
+                        android:textSize="16sp"
+                        android:layout_marginTop="3dp" />
+                </LinearLayout>
+            </LinearLayout>
+            
+            
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/expiryLayout"
+                android:layout_marginLeft="@dimen/margin_15"
+                android:layout_marginRight="@dimen/margin_15"
+                android:layout_marginBottom="@dimen/margin_15"
+                android:layout_marginTop="@dimen/margin_15"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/checkboxSaveCard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/margin_7"
+                    android:src="@drawable/select_savedcard_checked"
+                    android:background="@drawable/select_savedcard_unchecked"
+                    />
+
+                <TextView
+                    android:id="@+id/savedCardText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_5"
+                    android:text="Saved this card securely for a faster checkout next time"
+                    android:textSize="@dimen/text_size_medium"
+                    android:textColor="#4A4A4A"/>
+            </LinearLayout>
+
+            <!--<CheckBox-->
+                <!--android:id="@+id/checkboxSaveCard"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@id/expiryLayout"-->
+                <!--android:layout_marginLeft="@dimen/margin_15"-->
+                <!--android:layout_marginRight="@dimen/margin_15"-->
+                <!--android:layout_marginBottom="@dimen/margin_15"-->
+                <!--android:layout_marginTop="@dimen/margin_15"-->
+                <!--android:text="Save Card For Future Use"-->
+                <!--android:checked="true"/>-->
+
+
+        </LinearLayout>
+    </ScrollView>
+    <TextView
+        android:id="@+id/load"
+        style="@style/FooterStyle"
+        android:layout_alignParentBottom="true"
+        android:text="PROCEED TO PAYMENT"
+        android:textSize="18sp"
+        android:onClick="AddTransaction" />
+</RelativeLayout>

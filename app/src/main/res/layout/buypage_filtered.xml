@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appbar"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:id="@+id/toolbar"
+            android:layout_height="wrap_content"
+            app:layout_collapseMode="pin"
+            app:layout_scrollFlags="scroll|snap"
+            app:contentInsetStart="0dp"
+            app:contentInsetEnd="0dp"
+            app:contentInsetLeft="0dp"
+            app:contentInsetRight="0dp"
+            android:clipToPadding="false"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:id="@+id/FlashSaleLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/flash_sale_banner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:adjustViewBounds="true"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/margin_8">
+
+                    <TextView
+                        android:id="@+id/flash_sale_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="The Big Bag Sale"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_14"
+                        android:textStyle="normal|bold" />
+
+                    <TextView
+                        android:id="@+id/flash_sale_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_3"
+                        android:text="NOW LIVE - Ends at 11PM Tonight"
+                        android:textColor="@color/pink"
+                        android:textSize="@dimen/text_12" />
+
+                    <TextView
+                        android:id="@+id/flash_sale_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_3"
+                        android:text="Metallics are definitely in this season and stay stylish with this gorgeous Fendi."
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_10" />
+
+                    <LinearLayout
+                        android:id="@+id/flash_sale_timer_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_8"
+                            android:text="Hurry! Sale ends in"
+                            android:textAllCaps="true"
+                            android:textColor="@color/color_9b"
+                            android:textSize="@dimen/text_8" />
+
+                        <TextView
+                            android:id="@+id/flash_sale_timer"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_3"
+                            android:text="02:01:03:01"
+                            android:textAllCaps="false"
+                            android:textColor="@color/pink"
+                            android:textSize="@dimen/text_20" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:id="@+id/data_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/refineLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/margin_1"
+                    android:background="#EBEBEB" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:orientation="horizontal"
+                    android:visibility="visible"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/sortby"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/margin_38"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="SORT BY"
+                        android:textColor="#9B9B9B"
+                        android:textSize="@dimen/margin_14" />
+
+                    <View
+                        android:layout_width="@dimen/margin_1"
+                        android:layout_height="@dimen/margin_38"
+                        android:background="#EBEBEB" />
+
+                    <TextView
+                        android:id="@+id/refine"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/margin_38"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="REFINE"
+                        android:textColor="#9B9B9B"
+                        android:textSize="@dimen/margin_14" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/margin_1"
+                    android:background="#EBEBEB" />
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/frame_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible">
+
+                <android.support.v4.widget.SwipeRefreshLayout
+                    android:id="@+id/swipe_refresh"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="8dp">
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/main_recyclerview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/viewport"
+                        android:gravity="center"
+                        android:scrollbars="none"
+                        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+                    </android.support.v7.widget.RecyclerView>
+                </android.support.v4.widget.SwipeRefreshLayout>
+
+                <TextView
+                    android:id="@+id/new_stories"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/topbar"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="top|center"
+                    android:layout_marginTop="@dimen/margin_5"
+                    android:background="@drawable/newstory_background"
+                    android:paddingBottom="@dimen/margin_4"
+                    android:paddingLeft="@dimen/margin_8"
+                    android:paddingRight="@dimen/margin_8"
+                    android:paddingTop="@dimen/margin_4"
+                    android:text="JUST IN"
+                    android:textColor="@android:color/black" />
+
+                <LinearLayout
+                    android:id="@+id/emptyLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_100"
+                        android:src="@drawable/empty_state" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/margin_15"
+                        android:text="Oops. Something went wrong."
+                        android:textColor="#4a4a4a"
+                        android:textSize="@dimen/margin_16" />
+
+                    <TextView
+                        android:id="@+id/refresh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/margin_30"
+                        android:text="Refresh"
+                        android:textColor="#ff7477"
+                        android:textSize="@dimen/margin_16" />
+
+                </LinearLayout>
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/floatingButton"
+                    android:layout_width="@dimen/margin_54"
+                    android:layout_height="@dimen/margin_54"
+                    android:layout_gravity="bottom|right"
+                    android:layout_margin="@dimen/margin_30"
+                    android:src="@drawable/uparrow"
+                    app:backgroundTint="@android:color/white" />
+                <RelativeLayout
+                    android:id="@+id/rlladmore"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="bottom"
+                    android:background="@color/white"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content">
+                    <ProgressBar
+                        android:layout_width="@dimen/margin_20"
+                        android:layout_height="@dimen/margin_20"
+                        android:layout_centerInParent="true"
+                        android:indeterminate="false"
+                        android:indeterminateDrawable="@drawable/custom_progressbar_background" />
+
+                </RelativeLayout>
+            </FrameLayout>
+
+        </LinearLayout>
+
+
+        <ProgressBar
+            android:id="@+id/buy_progress"
+            android:layout_width="@dimen/margin_20"
+            android:layout_height="@dimen/margin_20"
+            android:layout_centerInParent="true"
+            android:indeterminate="false"
+            android:indeterminateDrawable="@drawable/custom_progressbar_background" />
+
+
+
+
+    </RelativeLayout>
+    </android.support.design.widget.CoordinatorLayout>
+
+</android.support.v4.widget.DrawerLayout>

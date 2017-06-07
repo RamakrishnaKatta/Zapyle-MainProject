@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/headerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_15"
+        android:layout_marginTop="@dimen/margin_15"
+        android:text="FEATHER LIGHT APP"
+        android:textColor="#4a4a4a"
+        android:textSize="@dimen/margin_14"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/updateText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The new update is less than 5MB making it one of the lightest apps around."
+        android:gravity="center"
+        android:textSize="@dimen/margin_16"
+        android:layout_margin="@dimen/margin_10"/>
+
+</LinearLayout>

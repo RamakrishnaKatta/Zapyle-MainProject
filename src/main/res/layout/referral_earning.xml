@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:id="@+id/referral_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/price_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:visibility="visible"
+                android:background="#F5F5F5">
+
+                <TextView
+                    android:layout_marginTop="@dimen/margin_25"
+                    android:id="@+id/earning_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingBottom="@dimen/margin_5"
+                    android:paddingTop="@dimen/margin_5"
+                    android:text="Current Balance"
+                    android:textColor="#4a4a4a"
+                    android:textSize="@dimen/margin_18"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/txtReferrals"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/earning_label"
+                    android:gravity="center"
+                    android:paddingBottom="@dimen/margin_5"
+                    android:paddingTop="@dimen/margin_5"
+                    android:layout_marginBottom="@dimen/margin_15"
+                    android:text="RS 0"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/margin_36" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:layout_marginTop="@dimen/margin_20"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EARN FREE CASH"
+                    android:textAllCaps="true"
+                    android:textColor="#4a4a4a"
+                    android:textSize="@dimen/margin_15"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_4"
+                    android:text="It’s easy!"
+                    android:textSize="@dimen/margin_15"
+                    android:layout_marginBottom="@dimen/margin_25"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Invite your friends to Zapyle
+and earn ₹100 for every new sign-up."
+                    android:textSize="24sp"
+                    android:layout_marginTop="@dimen/margin_15"
+                    android:layout_marginRight="@dimen/margin_20"
+                    android:layout_marginLeft="@dimen/margin_20"
+                    android:layout_marginBottom="@dimen/margin_10"
+                    android:gravity="center"
+                    android:textColor="#4a4a4a"
+                    />
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Your friend will get a sign-up bonus
+of ₹100 too. It’s a win-win. :)"
+                    android:textSize="@dimen/margin_15"
+                    android:textColor="#4a4a4a"
+                    android:layout_marginTop="@dimen/margin_20"
+                    android:layout_marginBottom="@dimen/margin_10"
+                    />
+
+                <TextView
+                    android:id="@+id/invite"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/margin_60"
+                    android:gravity="center"
+                    android:text="Invite Friends"
+                    android:textSize="@dimen/margin_18"
+                    android:textColor="@android:color/white"
+                    android:background="@color/pink"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="60dp"
+                    android:layout_marginTop="@dimen/margin_30"
+                    android:layout_marginBottom="@dimen/margin_10"/>
+                <TextView android:id="@+id/promocode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:gravity="center" android:paddingBottom="10dp"
+                    android:paddingTop="10dp" android:text="HAVE A PROMO CODE?"
+                    android:textSize="@dimen/margin_10"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/e_progressBar"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_centerInParent="true"
+        android:indeterminate="true"
+        android:indeterminateDrawable="@drawable/custom_progressbar_background"
+        android:visibility="gone" />
+
+</RelativeLayout>

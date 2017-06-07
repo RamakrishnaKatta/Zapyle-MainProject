@@ -1,0 +1,1092 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="activity.About_us"
+    android:background="#FFFFFF"
+    android:id="@+id/faqlayout"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_centerHorizontal="true"
+        android:padding="3dp"
+        android:layout_margin="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible"
+                android:layout_margin="@dimen/margin_5">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:text="What is Zapyle?"
+                        android:layout_alignParentLeft="true"
+                        android:textSize="@dimen/margin_16"
+                        android:textStyle="bold"
+                        android:padding="@dimen/margin_2"/>
+
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:padding="@dimen/margin_2"
+                    android:text="Zapyle is a fun, easy and social way to shop like a pro. We feature the best closets in India to buy from and your own to sell."/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:padding="@dimen/margin_2"
+                    android:text="Zapyle is a curated fashion destination where fashion lovers come together to buy and sell pre-loved items from their closets, and designers and storefronts list their collections at super discounted prices. From high street brands to designer labels and vintage finds, it’s all here!"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:padding="@dimen/margin_2"
+                    android:text="And that’s not it. Zapyle is a thriving fashion community – a great place to follow, connect and socialize with interesting fashion enthusiasts just like you. Be a part of a chic community of style divas, bonded by their closets and shared love for fashion. Discover fashion together, just with a tap on your phones."/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:padding="@dimen/margin_2"
+                    android:text="Zapyle is now available on iOS and Android, and tons of covetable wardrobes are waiting, so download it now!"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:padding="@dimen/margin_2"
+                    android:text="Visit our website: www.zapyle.com"
+                    android:autoLink="web"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="@dimen/margin_5">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/step1"
+                    android:onClick="step1"
+                    android:gravity="center_horizontal|center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:text="How do I get Started on Zapyle?"
+                        android:layout_alignParentLeft="true"
+                        android:textSize="@dimen/margin_16"
+                        android:textStyle="bold"
+                        android:padding="@dimen/margin_2"
+                        android:layout_toLeftOf="@+id/img1"/>
+                    <ImageView
+                        android:id="@+id/img1"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/downarrow"
+                        android:layout_alignParentRight="true"
+                        android:padding="@dimen/margin_2"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/step1text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:padding="@dimen/margin_2"
+                    android:text="The short checklist below will get you started:"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="@dimen/margin_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/step2"
+                    android:onClick="step2"
+                    android:gravity="center_horizontal|center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:text="How do I create my account?"
+                        android:layout_alignParentLeft="true"
+                        android:textSize="@dimen/margin_16"
+                        android:textStyle="bold"
+                        android:padding="@dimen/margin_2"
+                        android:layout_toLeftOf="@+id/img2"/>
+                    <ImageView
+                        android:id="@+id/img2"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/downarrow"
+                        android:layout_alignParentRight="true"
+                        android:padding="@dimen/margin_2"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/step2text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:padding="@dimen/margin_2"
+                    android:text="Zapyle lets you create your profile either through Facebook or Instagram. We ask you 3 basic questions to know more about you, just so that we can recommend closets to you that are in your style, size and brand preference."/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_margin="@dimen/margin_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/step3"
+                    android:onClick="step3"
+                    android:gravity="center_horizontal|center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:text="How do I upload?"
+                        android:layout_alignParentLeft="true"
+                        android:textSize="@dimen/margin_16"
+                        android:textStyle="bold"
+                        android:padding="@dimen/margin_2"
+                        android:layout_toLeftOf="@+id/img3"/>
+                    <ImageView
+                        android:id="@+id/img3"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/downarrow"
+                        android:layout_alignParentRight="true"
+                        android:padding="@dimen/margin_2"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/step3text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:padding="@dimen/margin_2"
+                    android:text="Start uploading style inspirations or items that you will like to sell from your closet. It’s only going to take you 60 seconds from an iPhone or an Android phone! Snap a picture, add in your product details and pick a price. See how easy it is to make your first sale!"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="@dimen/margin_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/step4"
+                    android:onClick="step4"
+                    android:gravity="center_horizontal|center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:text="How do I shop?"
+                        android:layout_alignParentLeft="true"
+                        android:textSize="@dimen/margin_16"
+                        android:textStyle="bold"
+                        android:padding="@dimen/margin_2"
+                        android:layout_toLeftOf="@+id/img4"/>
+                    <ImageView
+                        android:id="@+id/img4"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/downarrow"
+                        android:layout_alignParentRight="true"
+                        android:padding="@dimen/margin_2"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/step4text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:padding="@dimen/margin_2"
+                    android:text="You can shop directly from your newsfeed, because all that you see are products as per your preference selection and also from other closets you like aka Admire. So get tapping! Create a personalized shopping experience by following all the closets you love."/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="@dimen/margin_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/step5"
+                    android:onClick="step5"
+                    android:gravity="center_horizontal|center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:text="What is Zap Exclusive?"
+                        android:layout_alignParentLeft="true"
+                        android:textSize="@dimen/margin_16"
+                        android:textStyle="bold"
+                        android:padding="@dimen/margin_2"
+                        android:layout_toLeftOf="@+id/img5"/>
+                    <ImageView
+                        android:id="@+id/img5"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/downarrow"
+                        android:layout_alignParentRight="true"
+                        android:padding="@dimen/margin_2"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/step5text1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:padding="@dimen/margin_2"
+                    android:text="Zap Exclusive is a premium service where Zapyle personally handpicks the products in this closet – all the products are mostly new with tags and exclusive luxury items. We carry out extra verification of all the luxury handbags, shoes, clothes and accessories. Zapyle also lists the products on behalf of the sellers so that their identity is not disclosed. Plus, they are entitled to special white glove service!"/>
+
+                <TextView
+                    android:id="@+id/step5text2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:padding="@dimen/margin_2"
+                    android:text="This service is free for now, Zapyle does not charge extra for this premium service.
+"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="@dimen/margin_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/step6"
+                    android:onClick="step6"
+                    android:gravity="center_horizontal|center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:text="Sounds great. How do I get the Zapyle app?"
+                        android:layout_alignParentLeft="true"
+                        android:textSize="@dimen/margin_16"
+                        android:textStyle="bold"
+                        android:padding="@dimen/margin_2"
+                        android:layout_toLeftOf="@+id/img6"/>
+                    <ImageView
+                        android:id="@+id/img6"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/downarrow"
+                        android:layout_alignParentRight="true"
+                        android:padding="@dimen/margin_2"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/step6text1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:padding="@dimen/margin_2"
+                    android:text="Zapyle is available on Google play store and App store: Here are the links"/>
+
+                <TextView
+                    android:id="@+id/step6text2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:padding="@dimen/margin_2"
+                    android:text="You can also shop from the web! www.zapyle.com"
+                    android:autoLink="web"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="@dimen/margin_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/step7"
+                    android:onClick="step7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal|center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentLeft="true"
+                        android:textSize="@dimen/margin_16"
+                        android:textStyle="bold"
+                        android:padding="@dimen/margin_2"
+                        android:layout_toLeftOf="@+id/img7"
+                        android:text="Can I change my Username if it suddenly sounds lame?"/>
+                    <ImageView
+                        android:id="@+id/img7"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/downarrow"
+                        android:layout_alignParentRight="true"
+                        android:padding="@dimen/margin_2"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/step7text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:padding="@dimen/margin_2"
+                    android:text="Currently, you cannot change your username, so make sure you select something that you love when you register."/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_margin="@dimen/margin_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/step8"
+                    android:onClick="step8"
+                    android:gravity="center_horizontal|center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentLeft="true"
+                        android:textSize="@dimen/margin_16"
+                        android:textStyle="bold"
+                        android:layout_toLeftOf="@+id/img8"
+                        android:padding="@dimen/margin_2"
+                        android:text="How do I trust the stuff I’m buying on Zapyle?"/>
+
+                    <ImageView
+                        android:id="@+id/img8"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/downarrow"
+                        android:layout_alignParentRight="true"
+                        android:padding="@dimen/margin_2"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/step8text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:padding="@dimen/margin_2"
+                    android:text="Zapyle personally handpicks its sellers and it assures that all the products are legit. If you are still not satisfied, Zapyle gives you 24 hours when you purchase something – from the time the product reaches you – and gives you the option to return it if you don’t love it. We keep your money in the escrow account for those 24 hours. After we verify your claim, we give you the option of earning Zapyle credits."/>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_margin="@dimen/margin_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/step9"
+                    android:onClick="step9"
+                    android:gravity="center_horizontal|center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentLeft="true"
+                        android:textSize="@dimen/margin_16"
+                        android:textStyle="bold"
+                        android:padding="@dimen/margin_2"
+                        android:layout_toLeftOf="@+id/img9"
+                        android:text="What are Zapyle credits?"/>
+
+                    <ImageView
+                        android:id="@+id/img9"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/downarrow"
+                        android:layout_alignParentRight="true"
+                        android:padding="@dimen/margin_2"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/step9text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:padding="@dimen/margin_2"
+                    android:text="Zapyle creates a ZapCash (Wallet) for you where your Zapyle shopping money is stored."/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_margin="@dimen/margin_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/step10"
+                    android:onClick="step10"
+                    android:gravity="center_horizontal|center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentLeft="true"
+                        android:textSize="@dimen/margin_16"
+                        android:textStyle="bold"
+                        android:padding="@dimen/margin_2"
+                        android:layout_toLeftOf="@+id/img10"
+                        android:text="What are the Shipping rates on Zapyle?"/>
+
+                    <ImageView
+                        android:id="@+id/img10"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/downarrow"
+                        android:layout_alignParentRight="true"
+                        android:padding="@dimen/margin_2"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/step10text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:padding="@dimen/margin_2"
+                    android:text="All Zapylers will be provided with free shipping on orders above Rs. 1800. Not bad, right?"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="@dimen/margin_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/step11"
+                    android:onClick="step11"
+                    android:gravity="center_horizontal|center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentLeft="true"
+                        android:textSize="@dimen/margin_16"
+                        android:textStyle="bold"
+                        android:padding="@dimen/margin_2"
+                        android:layout_toLeftOf="@+id/img11"
+                        android:text="Help! I purchased an item, but did not receive a confirmation email. What do I do now?"/>
+
+                    <ImageView
+                        android:id="@+id/img11"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/downarrow"
+                        android:layout_alignParentRight="true"
+                        android:padding="@dimen/margin_2"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/step11text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:padding="@dimen/margin_2"
+                    android:text="We hear you! You can write to service@zapyle.com with your email address, order information and your Zapyle username. You can also call us on 080 4000 4540 and we’ll get back to you asap!"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="@dimen/margin_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/step12"
+                    android:onClick="step12"
+                    android:gravity="center_horizontal|center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentLeft="true"
+                        android:textSize="@dimen/margin_16"
+                        android:textStyle="bold"
+                        android:padding="@dimen/margin_2"
+                        android:layout_toLeftOf="@+id/img12"
+                        android:text="Oops! I accidentally purchased an item, how do I cancel the order?"/>
+
+                    <ImageView
+                        android:id="@+id/img12"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/downarrow"
+                        android:layout_alignParentRight="true"
+                        android:padding="@dimen/margin_2"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/step12text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:padding="@dimen/margin_2"
+                    android:text="Sorry. Currently, we do not have an order cancellation option, but you can email us on service@zapyle.com or call us at 080 4000 4540 and we’ll see if we can help. But make sure you notify to us within 24 hours."
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="@dimen/margin_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/step13"
+                    android:onClick="step13"
+                    android:gravity="center_horizontal|center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentLeft="true"
+                        android:textSize="@dimen/margin_16"
+                        android:textStyle="bold"
+                        android:padding="@dimen/margin_2"
+                        android:layout_toLeftOf="@+id/img13"
+                        android:text="When can I expect to receive my Zapyle order?"/>
+
+                    <ImageView
+                        android:id="@+id/img13"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/downarrow"
+                        android:layout_alignParentRight="true"
+                        android:padding="@dimen/margin_2"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/step13text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:padding="@dimen/margin_2"
+                    android:text="We allow our sellers to dispatch the order within 7 days. However, most of the orders are shipped within 3 business days. As soon as the order is placed, we work really hard to send the product to you at the earliest."
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="@dimen/margin_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/step14"
+                    android:onClick="step14"
+                    android:gravity="center_horizontal|center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentLeft="true"
+                        android:textSize="@dimen/margin_16"
+                        android:textStyle="bold"
+                        android:padding="@dimen/margin_2"
+                        android:layout_toLeftOf="@+id/img14"
+                        android:text="What should I do when I receive my order?"/>
+
+                    <ImageView
+                        android:id="@+id/img14"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/downarrow"
+                        android:layout_alignParentRight="true"
+                        android:padding="@dimen/margin_2"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/step14text1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:padding="@dimen/margin_2"
+                    android:text="You will have 24 hours from the time you get your order. If you want to return an item, you can go on Zapyle app > Menu bar > My order > Return. You can select one of the 4 options provided to you and we will have a Zap care agent reach out to you at the earliest."/>
+                    />
+
+                <TextView
+                    android:id="@+id/step14text2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:padding="@dimen/margin_2"
+                    android:text="Zapyle ensures all the products listed are authentic and in great condition, but we let you, the buyer, take the call."
+                />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="@dimen/margin_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/step15"
+                    android:onClick="step15"
+                    android:gravity="center_horizontal|center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentLeft="true"
+                        android:textSize="@dimen/margin_16"
+                        android:textStyle="bold"
+                        android:padding="@dimen/margin_2"
+                        android:layout_toLeftOf="@+id/img15"
+                        android:text="How do I sell on Zapyle?"/>
+
+                    <ImageView
+                        android:id="@+id/img15"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/downarrow"
+                        android:layout_alignParentRight="true"
+                        android:padding="@dimen/margin_2"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/step15text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:padding="@dimen/margin_2"
+                    android:text="You can only sell from Zapyle app. To make a listing, click on the camera icon on the top right of the app, add clear pictures of your item from your phone library, and write a description. It takes only 60 seconds to make a listing!"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="@dimen/margin_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/step16"
+                    android:onClick="step16"
+                    android:gravity="center_horizontal|center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentLeft="true"
+                        android:textSize="@dimen/margin_16"
+                        android:textStyle="bold"
+                        android:padding="@dimen/margin_2"
+                        android:layout_toLeftOf="@+id/img16"
+                        android:text="What is Zapyle’s Fashion Calculator?"/>
+
+                    <ImageView
+                        android:id="@+id/img16"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/downarrow"
+                        android:layout_alignParentRight="true"
+                        android:padding="@dimen/margin_2"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/step16text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:padding="@dimen/margin_2"
+                    android:text="Fashion calculator helps you decide the listing price. It will ask you 3 basic questions – age of the product, condition and brand. On the basis of these 3 parameters, it gives you a range of prices to pick from. It also shows you the listing price and your earnings."
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="@dimen/margin_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/step17"
+                    android:onClick="step17"
+                    android:gravity="center_horizontal|center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentLeft="true"
+                        android:textSize="@dimen/margin_16"
+                        android:textStyle="bold"
+                        android:padding="@dimen/margin_2"
+                        android:layout_toLeftOf="@+id/img17"
+                        android:text="WWhat is the fees for selling on Zapyle?"/>
+
+                    <ImageView
+                        android:id="@+id/img17"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/downarrow"
+                        android:layout_alignParentRight="true"
+                        android:padding="@dimen/margin_2"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/step17text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:padding="@dimen/margin_2"
+                    android:text="Zapyle charges only a flat 25% commission, where we market your products and make sure you get the right buyer for your closet – someone who fits your style preference and size. We also fulfill your order, send you the packaging material and shipping is free!"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="@dimen/margin_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/step18"
+                    android:onClick="step18"
+                    android:gravity="center_horizontal|center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentLeft="true"
+                        android:textSize="@dimen/margin_16"
+                        android:textStyle="bold"
+                        android:padding="@dimen/margin_2"
+                        android:layout_toLeftOf="@+id/img18"
+                        android:text="What are Storefronts?"/>
+
+                    <ImageView
+                        android:id="@+id/img18"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/downarrow"
+                        android:layout_alignParentRight="true"
+                        android:padding="@dimen/margin_2"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/step18text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:padding="@dimen/margin_2"
+                    android:text="Zapyle has partnered with A-list designers who sell their collections at discounted prices. Don’t forget to check them out – it’s a steal!"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_margin="@dimen/margin_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/step19"
+                    android:onClick="step19"
+                    android:gravity="center_horizontal|center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentLeft="true"
+                        android:textSize="@dimen/margin_16"
+                        android:textStyle="bold"
+                        android:padding="@dimen/margin_2"
+                        android:layout_toLeftOf="@+id/img19"
+                        android:text="I just found a buyer, how do I ship my order?"/>
+
+                    <ImageView
+                        android:id="@+id/img19"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/downarrow"
+                        android:layout_alignParentRight="true"
+                        android:padding="@dimen/margin_2"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/step19text1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:padding="@dimen/margin_2"
+                    android:text="Congratulations on your first sale! You would have received an invoice on your email from us. Kindly, print that out, keep your item ready, make sure your item is dry cleaned, ironed and ready to be loved by your purchaser. You can also write a personal note to the buyer on the Zapyle Thank You card. We love spreading the love!"
+                    />
+                <TextView
+                    android:id="@+id/step19text2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:padding="@dimen/margin_2"
+                    android:text="Shortly, a shipping person will come and collect the product from you."
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="@dimen/margin_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/step20"
+                    android:onClick="step20"
+                    android:gravity="center_horizontal|center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentLeft="true"
+                        android:textSize="@dimen/margin_16"
+                        android:textStyle="bold"
+                        android:padding="@dimen/margin_2"
+                        android:layout_toLeftOf="@+id/img20"
+                        android:text="How do I get paid?"/>
+
+                    <ImageView
+                        android:id="@+id/img20"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/downarrow"
+                        android:layout_alignParentRight="true"
+                        android:padding="@dimen/margin_2"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/step20text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:padding="@dimen/margin_2"
+                    android:text="At the time of uploading the product, we ask you for your account details, and the moment the product is approved by the buyer, within 2 business days, your money will be transferred to the account registered with Zapyle."
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_margin="@dimen/margin_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/step21"
+                    android:onClick="step21"
+                    android:gravity="center_horizontal|center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentLeft="true"
+                        android:textSize="@dimen/margin_16"
+                        android:textStyle="bold"
+                        android:padding="@dimen/margin_2"
+                        android:layout_toLeftOf="@+id/img21"
+                        android:text="What if I want to change my Account Number?"/>
+
+                    <ImageView
+                        android:id="@+id/img21"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/downarrow"
+                        android:layout_alignParentRight="true"
+                        android:padding="@dimen/margin_2"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/step21text1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:padding="@dimen/margin_2"
+                    android:text="You can go back to the last listing you made and change the details there. Currently, we do not have an option to change the account number on the dashboard."
+                    />
+                <TextView
+                    android:id="@+id/step21text2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:padding="@dimen/margin_2"
+                    android:text="Zapyle is working on introducing new, sassy features to make your shopping and user experience better every time, so brace yourselves!"
+                    android:textStyle="italic"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:paddingLeft="@dimen/margin_2"
+                    android:paddingRight="@dimen/margin_2"
+                    android:paddingTop="@dimen/margin_5"
+                    android:text="Happy Shopping!
+"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

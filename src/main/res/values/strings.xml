@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Zapyle</string>
+    <string name="action_settings">Settings</string>
+    <!--<string name="app_id">407064926166842</string>-->
+    <string name="app_id">1602519030013216</string>
+    <string name="title_activity_about_us">About_us</string>
+    <string name="title_activity_feed_page">FeedPage</string>
+    <string name="edittext_title">Enter title</string>
+    <string name="edittext_desc">Enter description</string>
+
+    <string name="Rs">\u20B9</string>
+
+
+    <string name="title_activity_comment">CommentActivity</string>
+    <string name="title_activity_login_handler">loginHandler</string>
+
+    <string name="label_save_address">ADD</string>
+    <string name="hint_address">House Number, Building name</string>
+    <string name="hint_city">Area,City</string>
+    <string name="hint_postcode">Postcode</string>
+
+    <string name="title_activity_crop">CropActivity</string>
+    <string name="title_activity_faq">FAQ</string>
+    <string name="accept">Accept</string>
+    <string name="title_activity_likers">LikersActivity</string>
+    <string name="hint_name">Enter your name</string>
+    <string name="hint_state">State</string>
+    <string name="hint_phone">Phone number</string>
+    <string name="title_activity_Addresspage">AddressPage</string>
+    <string name="ChoosePicture">Choose a Picture</string>
+
+
+    <string name="card_number_hint">XXXX XXXX XXXX XXXX</string>
+    <string name="card_name_hint">NAME AS ON CARD</string>
+    <string name="CreditDebitCardDetails">CreditDebitCardDetails</string>
+
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="uparrow">\u2191</string>
+    <string name="downarrow">\u2193</string>
+    <string name="onborading2Heading">TAP YOUR INTEREST</string>
+    <string name="onborading3Heading">FOLLOW BRANDS</string>
+    <string name="onborading4Heading">SELECT SIZE</string>
+    <string name="dummytext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque </string>
+    <string name="cgstring1">NEW WITH TAGS</string>
+    <string name="cgstring4">WORN OUT</string>
+    <string name="bpstring1">GUARANTEED AUTHENTICITY</string>
+    <string name="BPstring2">CREDIT CARD CHECKOUT</string>
+    <string name="bp1String">Zapyle guarantees authenticity of its items</string>
+    <string name="bp2string">Each item goes through a rigorous process with industry leading protocols and zapyle is in constant contact with brands and fashion houses to guarantee authenticity.</string>
+    <string name="bp3string">Zapyle protects its buyer by giving you 24 hour return period. If you are happy with the product,we accept the return with no questions asked.In the event you wish to return your product,Zapyle will reimburse entire amount as store credit in your Zap wallet.</string>
+    <string name="sold">Sold Out</string>
+    <string name="fc_content">Based on your item\'s history, we\'ve calculated a price range for its sale. Select your desired listing price and see how much you can earn!</string>
+    <!--<string name="rs">\u20B9</string>-->
+    <!--<string name="rs">\u20B9</string>-->
+    <!--<string name="mixpanelToken">679eb8981e3a5bfa5bb22ca018ad8114</string>-->
+    <string name="mixpanelToken">cdcedd9556628c0ac79f0d2a70a363c2</string>
+    <!--<string name="sr1">Once the order is placed we will get the product delivered to you within 14 days depending on your location. The product can be returned within 24 hours after you've received it. Just head to My Orders on the Zapyle app and choose to Return. </string>-->
+    <string name="cg1string">This is an authentic, pre-owned piece</string>
+    <string name="cg2string">This is a new item that has not been used and shows no signs of wear.</string>
+    <string name="cg3string">Original tags or labels are attached to the items</string>
+    <string name="cg4string">There may be natural imperfections from the manufacturer</string>
+    <string name="cg5string">This is an authentic, pre-owned piece</string>
+    <string name="cg6string">There must be imperfections as it is a pre-owned item</string>
+    <string name="cg7string">This item is in a good condition but shows some signs of gentle-to-normal wear</string>
+    <string name="cg8string">This is an authentic, pre-owned piece</string>
+    <string name="cg9string">There must be imperfections as it is a pre-owned item</string>
+    <string name="cg10string">This item is in a \"loved\" condition and may have obvious signs of wear</string>
+    <string name="cg11string">We see these flaws and blemishes as unique charecteristics that are exclusive to vintage or previously owned items</string>
+    <string name="cg12string">This item is in \"worn out\" condition and may have obvious signs of wear</string>
+    <string name="cg13string">This item might be worn between 5-10 times but it brings in a story and a memory along with it.</string>
+    <string name="ifscAccept">ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890</string>
+
+
+    <string name="au_1">Zapyle rests on a strong policy of authenticity. All the products listed on Zapyle are 100% authentic.We only approve products with high quality images and which feature in our list of 550 brands.</string>
+    <string name="au_2">Our trained in-house professionals, including apparel experts and handbag appraisers ensure that every item sold and bought on our platform is 100% authentic and in great condition, preloved or brand new.</string>
+    <string name="au_3">A trained team of luxury experts passes every item to be bought or sold through a second round of authentication process where they are checked on a multi-point system, before they are accepted for listing.</string>
+    <string name="au_4">Each item is inspected for original brand logos, date codes, serial tags and hologram stickers before it is curated into daily sales.</string>
+    <string name="au_5">Our goal at Zapyle is to provide you a luxury experience, so rest assured and shop stress free.</string>
+    <string name="emptyfeedString">There are no items matching your selection</string>
+    <string name="title_activity_searchnew">searchnew</string>
+    <string name="sr4">Once the order is placed we will get the product delivered to you within 14 days depending on your location. The product can be returned within 24 hours after you\'ve received it. Just head to My Orders on the Zapyle app and choose to Return.</string>
+    <string name="home1"><![CDATA[Discover fashion, sell from your closet & buy from the best closets across india.]]></string>
+    <string name="title_activity_shop_cart">ShopCart</string>
+    <string name="title_activity_shoppingcartnew">shoppingcartnew</string>
+    <string name="shipndreturns"><![CDATA[Shipping & Returns Policy]]></string>
+    <string name="title_activity_notifications">NOTIFICATIONS</string>
+
+</resources>

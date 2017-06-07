@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/rv"
+    android:background="#f2f2f2"
+    android:paddingLeft=".5px"
+    android:paddingRight=".5px"
+    android:paddingBottom=".5px">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/product_collection_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp"
+        android:backgroundTint="@android:color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/margin_5"
+        android:background="@android:color/white">
+
+        <TextView
+            android:id="@+id/product_collection_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:text="GIUSEPPE ZANOTTI"
+            android:singleLine="true"
+            android:ellipsize="end"/>
+        <TextView
+            android:id="@+id/prodgridtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Emerald Green Kalidar Kurta - Ideal For Weddings"
+            android:textSize="@dimen/text_10"
+            android:singleLine="true"
+            android:layout_marginTop="@dimen/margin_1"
+            android:textColor="@color/color_4a"
+            android:ellipsize="end"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_7">
+
+            <TextView
+                android:id="@+id/product_collection_lprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="17,565"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/product_collection_oprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_5"
+                android:text="56,777" />
+
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

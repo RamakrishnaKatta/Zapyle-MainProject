@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/discoverActionbar"
+    android:gravity="center_horizontal|center_vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:textStyle="normal"
+        android:textSize="20sp"
+        android:textColor="#4a4a4a"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="5dp"
+        android:text="SHIPPING AND RETURNS" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/camera_icon"
+        android:layout_alignParentEnd="true"
+        android:adjustViewBounds="false"
+        android:paddingTop="8dp"
+        android:paddingRight="10dp"
+        android:visibility="invisible"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:id="@+id/SRbackButton"
+        android:src="@drawable/appvirality_prev_grey"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentTop="false"
+        android:layout_marginTop="2dp"
+        android:paddingLeft="5dp" />
+
+</RelativeLayout>

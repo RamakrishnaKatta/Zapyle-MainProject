@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/rl">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/relativeLayout10"
+        android:visibility="gone"
+        android:background="#f4f4f4">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtsearch"
+            android:textSize="14dp"
+            android:hint="Search category"
+            android:background="@drawable/background_edittext_grey"
+            android:imeOptions="actionSearch"
+            android:singleLine="true"
+            android:paddingLeft="3dp"
+            android:textIsSelectable="false"
+            android:layout_alignTop="@+id/imagesearch"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:paddingRight="6dp"
+            android:paddingLeft="10dp"
+            android:text="APPLY"
+            android:textColor="@android:color/white"
+            android:paddingBottom="@dimen/margin_4"
+            android:id="@+id/imagesearch"
+            android:src="@drawable/searchnew1"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:paddingTop="7dp" />
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/grey"
+            android:layout_below="@+id/imagesearch"
+            android:layout_height="1dp"
+            android:id="@+id/upperline"
+            android:visibility="visible"
+            android:layout_marginTop="9dp" />
+
+    </RelativeLayout>
+
+    <ExpandableListView
+        android:id="@+id/laptop_list"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/relativeLayout10"
+        android:background="#f4f4f4"
+        android:groupIndicator="@null"
+        android:divider="@null"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp">
+    </ExpandableListView>
+
+    <ListView
+        android:id="@+id/lvsearch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/relativeLayout10"
+        android:background="#f4f4f4"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1.32"
+        android:visibility="gone"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/tvNotFound"
+        android:layout_centerInParent="true"
+        android:textStyle="bold|italic"
+        android:textSize="16dp"
+        android:visibility="gone" />
+
+</RelativeLayout>

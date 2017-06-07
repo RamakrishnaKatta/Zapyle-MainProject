@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/drawerListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical">
+
+        <TextView
+            android:id="@+id/drawerText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical"
+            android:text="Home"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/drawerImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/margin_9"
+            android:padding="@dimen/margin_5" />
+
+        <LinearLayout
+            android:id="@+id/secondarylistview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/drawerText"
+            android:layout_marginLeft="@dimen/margin_40"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_below="@+id/secondarylistview"
+            android:layout_height="1dp"
+            android:background="#9E9E9E" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

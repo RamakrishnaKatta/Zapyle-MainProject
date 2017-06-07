@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="@dimen/margin_10"
+    android:orientation="vertical">
+
+    <GridView
+        android:id="@+id/grid_colors"
+        android:layout_above="@+id/selectColor"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/transparent"
+        android:columnWidth="90dp"
+        android:gravity="center"
+        android:horizontalSpacing="0dp"
+        android:numColumns="4"
+        android:padding="@dimen/margin_5"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="0dp" />
+
+    <TextView
+        android:id="@+id/selectColor"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ff7477"
+        android:gravity="center"
+        android:text="SELECT"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+
+    <ProgressBar
+        android:id="@+id/color_progressBar"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        android:indeterminateDrawable="@drawable/custom_progressbar_background"
+        android:visibility="visible" />
+</RelativeLayout>

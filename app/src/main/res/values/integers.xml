@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="swing_anim_time">250</integer>
+    <integer name="photo_list_preview_columns">2</integer>
+    <integer name="AutoDeeplinkRequestCode">1</integer>
+</resources>

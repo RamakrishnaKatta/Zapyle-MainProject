@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/emailloginbg"
+    android:orientation="vertical"
+    android:gravity="center_vertical|center_horizontal"
+    android:id="@+id/loginhandler">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginRight="@dimen/margin_20"
+        android:visibility="visible">
+
+        <EditText
+            android:id="@+id/userHandler"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/email_login_editbox"
+            android:layout_margin="3dp"
+            android:textSize="14dp"
+            android:paddingLeft="12dp"
+            android:hint="User Name"
+            android:singleLine="true"
+            android:lines="1"
+            android:maxLength="30"/>
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/email_login_editbox"
+            android:layout_margin="3dp"
+            android:textSize="14dp"
+            android:paddingLeft="12dp"
+            android:hint="Email"
+            android:singleLine="true"
+            android:lines="1"
+            android:maxLength="30"/>
+
+        <EditText
+            android:id="@+id/userHandlerphone"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/email_login_editbox"
+            android:layout_margin="3dp"
+            android:textSize="14dp"
+            android:paddingLeft="12dp"
+            android:hint="Phone No. +91"
+            android:inputType="number"
+            android:singleLine="true"
+            android:lines="1"
+            android:maxLength="10"/>
+
+        <EditText
+            android:id="@+id/referral"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/email_login_editbox"
+            android:layout_margin="3dp"
+            android:textSize="14dp"
+            android:paddingLeft="12dp"
+            android:hint="Referral (Optional)"
+            android:singleLine="true"
+            android:lines="1"
+            android:maxLength="30"
+            android:visibility="gone"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="@dimen/margin_15"
+            android:background="#ff7477"
+            android:gravity="center_vertical|center_horizontal">
+            <TextView
+                android:id="@+id/login_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Done"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

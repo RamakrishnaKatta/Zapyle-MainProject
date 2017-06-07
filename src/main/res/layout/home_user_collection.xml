@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/margin_5"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:layout_marginBottom="@dimen/margin_10"-->
+            <!--android:layout_marginTop="@dimen/margin_10"-->
+            <!--android:background="#BDBDBD" />-->
+
+        <TextView
+            android:id="@+id/user_collection_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_marginTop="@dimen/margin_10"
+            android:text="Closets to Admire"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size_medium"
+            android:textStyle="bold" />
+        <!--<HorizontalScrollView-->
+        <!--android:id="@+id/user_collection_horizontal_scrollview"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:scrollbars="none">-->
+        <!--</HorizontalScrollView>-->
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/user_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></android.support.v4.view.ViewPager>
+
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp" />-->
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

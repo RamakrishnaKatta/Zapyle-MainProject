@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center|left">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_25"
+        android:layout_marginRight="@dimen/margin_10"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/o_stem1"
+            android:layout_width="@dimen/margin_5"
+            android:layout_height="@dimen/margin_25"
+            android:background="#D7D7D7" />
+
+        <TextView
+            android:id="@+id/o_ball"
+            android:layout_width="@dimen/margin_20"
+            android:layout_height="@dimen/margin_20"
+            android:background="@drawable/untracker_bg"
+            android:textSize="@dimen/margin_20" />
+
+        <View
+            android:id="@+id/o_stem2"
+            android:layout_width="@dimen/margin_5"
+            android:layout_height="@dimen/margin_25"
+            android:background="#D7D7D7" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/data_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_5"
+        android:gravity="center|left"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/o_tracker_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order placed"
+            android:textColor="#4A4A4A"
+            android:textSize="@dimen/margin_14" />
+
+        <TextView
+            android:id="@+id/o_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_4"
+            android:text="Order being Confirmed"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textColor="#9B9B9B"
+            android:textSize="@dimen/margin_10" />
+
+        <TextView
+            android:id="@+id/o_tracker_ordred_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_4"
+            android:text="Jun 4, 2016"
+            android:singleLine="true"
+            android:textColor="#9B9B9B"
+            android:textSize="@dimen/margin_10" />
+
+    </LinearLayout>
+
+</LinearLayout>

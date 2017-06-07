@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_1"
+        android:background="#9E9E9E"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_50">
+
+        <TextView
+            android:id="@+id/reason"
+            android:layout_margin="@dimen/margin_5"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/reasonDivider"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/margin_50"
+            android:gravity="center|left"
+            android:textColor="#4a4a4a"
+            android:text="The product is not in the size I ordered"
+            android:textSize="@dimen/margin_15"/>
+
+        <View
+            android:id="@+id/reasonDivider"
+            android:layout_width="@dimen/margin_1"
+            android:layout_height="@dimen/margin_50"
+            android:background="#9E9E9E"
+            android:layout_toLeftOf="@+id/reasonSelectLayout"/>
+        <LinearLayout
+            android:id="@+id/reasonSelectLayout"
+            android:layout_width="@dimen/margin_60"
+            android:layout_height="@dimen/margin_60"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <CheckBox
+                android:id="@+id/reason_checkbox"
+                android:layout_width="@dimen/margin_20"
+                android:layout_height="@dimen/margin_20"
+                android:background="@drawable/buttonbackground"
+                android:button="@android:color/transparent"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

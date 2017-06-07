@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/commentitemlayout">
+
+
+    <ImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/ivIcon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/dummyprofilepic"
+        android:scaleType="centerCrop" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="8dp">
+        <RelativeLayout
+            android:id="@+id/name_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical|left">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MahiShell"
+                android:id="@+id/username"
+                android:textColor="#237BAE"
+                android:textSize="15dp"
+                />
+
+            <ImageView
+                android:id="@+id/delete_comment"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/delete_comment"
+                android:layout_alignParentRight="true"
+                android:paddingTop="@dimen/margin_2"
+                android:paddingBottom="@dimen/margin_2"
+                android:paddingRight="@dimen/margin_5"
+                android:paddingLeft="@dimen/margin_5"
+                android:layout_marginRight="@dimen/margin_5"/>
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_below="@+id/name_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus est, si videtur, et recta quidem ad me. Quod autem principium officii quaerunt, melius quam Pyrrho;"
+            android:id="@+id/commenttext"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_below="@+id/commenttext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5m ago"
+            android:paddingTop="5dp"
+            android:id="@+id/time"/>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

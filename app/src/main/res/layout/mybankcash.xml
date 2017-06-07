@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#FFFFFF" >
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:text="A/c Name    "
+                android:layout_marginLeft="30dp"
+                android:textSize="16dp"
+                android:textColor="#000000"
+                android:layout_gravity="center_vertical" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="add account here "
+                    android:id="@+id/tvaccountname"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="center_vertical" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edtaccountname"
+                    android:textSize="14dp"
+                    android:background="@drawable/background_edittext"
+                    android:enabled="true"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingBottom="5dp"
+                    android:singleLine="true"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:visibility="gone"
+                    android:maxLength="25"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#FFFFFF" >
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:text="A/c No    "
+                android:layout_marginLeft="30dp"
+                android:textSize="16dp"
+                android:textColor="#000000"
+                android:layout_gravity="center_vertical" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="add account here "
+                android:id="@+id/tvaccount"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center_vertical" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtaccount"
+                android:textSize="14dp"
+                android:background="@drawable/background_edittext"
+                android:enabled="true"
+                android:layout_marginLeft="5dp"
+                android:paddingLeft="5dp"
+                android:paddingBottom="5dp"
+                android:singleLine="true"
+                android:paddingTop="5dp"
+                android:layout_gravity="center_vertical"
+                android:visibility="gone"
+                android:inputType="number"
+                android:maxLength="16"
+                />
+                </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#FFFFFF"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:text="IFSC CODE"
+                android:layout_marginLeft="30dp"
+                android:textSize="16dp"
+                android:textColor="#000000"
+                android:layout_gravity="center_vertical" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#FFFFFF" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="add IFSC code here"
+                android:id="@+id/tvifsc"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center_vertical" />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edtifsc"
+                    android:textSize="14dp"
+                    android:background="@drawable/background_edittext"
+                    android:enabled="true"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingBottom="5dp"
+                    android:singleLine="true"
+                    android:paddingTop="5dp"
+                    android:digits="@string/ifscAccept"
+                    android:layout_gravity="center_vertical"
+                    android:textAllCaps="true"
+                    android:maxLength="25"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#01ceb3"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/cancel"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="UNDO"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:autoText="false"
+                android:background="#6b6868" />
+            <TextView
+                android:id="@+id/next"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="DONE"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="#ff7477" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

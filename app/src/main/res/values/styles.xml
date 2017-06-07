@@ -1,0 +1,233 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <!--<item name="windowActionBarOverlay">true</item>-->
+        <!--<item name="actionBarStyle">@style/myActionbarTransparent</item>-->
+        <!--<item name="android:actionBarStyle">@style/Theme.MyAppTheme.ActionBar</item>-->
+    </style>
+
+
+    <style name="Theme" parent="AppTheme">
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="Theme.MyAppTheme.ActionBar" parent="Theme.AppCompat.Light">
+        <item name="android:background">@drawable/gradient</item>
+    </style>
+
+    <style name="ActionBarStyle" parent="Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/MainActionBar</item>
+        <item name="actionBarStyle">@style/MainActionBar</item>
+    </style>
+
+    <style name="MainActionBar" parent="Theme.AppCompat.Light">
+        <item name="android:background">@drawable/gradient</item>
+        <item name="background">@drawable/gradient</item>
+    </style>
+
+
+    <!--FeedPage-->
+    <style name="FeedActionBarStyle" parent="Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/FeedMainActionBar</item>
+        <item name="actionBarStyle">@style/FeedMainActionBar</item>
+        <!--<item name="android:actionBarTabTextStyle">@style/FeedMainActionBarTitle</item>-->
+
+
+    </style>
+
+    <style name="FeedMainActionBar" parent="Theme.AppCompat.Light">
+        <item name="android:background">@drawable/gradient</item>
+        <item name="background">@drawable/gradient</item>
+    </style>
+
+    <style name="FeedMainActionBarTitle" parent="Theme.AppCompat.Light">
+        <!--<item name="android:te">center</item>-->
+        <!--<item name="textAlignment">center</item>-->
+
+    </style>
+
+
+    <style name="LikersActionBarStyle" parent="Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/LikersMainActionBar</item>
+        <item name="actionBarStyle">@style/LikersMainActionBar</item>
+        <!--<item name="android:actionBarTabTextStyle">@style/FeedMainActionBarTitle</item>-->
+
+
+    </style>
+
+    <style name="LikersMainActionBar" parent="Theme.AppCompat.Light">
+        <item name="android:background">@drawable/gradient</item>
+        <item name="background">@drawable/gradient</item>
+    </style>
+
+    <style name="NotifActionBarStyle" parent="Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/NotifMainActionBar</item>
+        <item name="actionBarStyle">@style/NotifMainActionBar</item>
+
+        <!--<item name="android:actionBarTabTextStyle">@style/FeedMainActionBarTitle</item>-->
+
+
+    </style>
+
+    <style name="NotifMainActionBar" parent="Theme.AppCompat.Light">
+        <item name="android:background">@drawable/gradient</item>
+        <item name="background">@drawable/gradient</item>
+    </style>
+
+
+    <style name="AccessActionBarStyle" parent="Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/AccessMainActionBar</item>
+        <item name="actionBarStyle">@style/AccessMainActionBar</item>
+    </style>
+
+    <style name="AccessMainActionBar" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/access</item>
+        <item name="background">@color/access</item>
+    </style>
+
+    <style name="TextStyleFAQ" parent="Theme.AppCompat.Light">
+        <item name="android:textColor">#000000</item>
+
+    </style>
+
+    <style name="TextStyleAboutus" parent="Theme.AppCompat.Light">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">16sp</item>
+
+    </style>
+
+    <style name="UploadActionBarStyle1" parent="Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/UploadActionBar1</item>
+        <item name="actionBarStyle">@style/UploadActionBar1</item>
+    </style>
+
+    <style name="UploadActionBar1" parent="Theme.AppCompat.Light">
+        <item name="android:background">@drawable/gradient</item>
+        <item name="background">@drawable/gradient</item>
+    </style>
+
+    <style name="UploadActionBarStyle2" parent="Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/UploadActionBar2</item>
+        <item name="actionBarStyle">@style/UploadActionBar2</item>
+    </style>
+
+    <style name="UploadActionBar2" parent="Theme.AppCompat.Light">
+        <item name="android:background">@drawable/gradient</item>
+        <item name="background">@drawable/gradient</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="CGActionBarStyle2" parent="Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/CGActionBar2</item>
+        <item name="actionBarStyle">@style/CGActionBar2</item>
+    </style>
+
+
+    <style name="DiscoverActionBarStyle2" parent="Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/DiscoverActionBar2</item>
+        <item name="actionBarStyle">@style/DiscoverActionBar2</item>
+    </style>
+
+    <style name="paymentActionBarStyle2" parent="Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/PaymentActionBar2</item>
+        <item name="actionBarStyle">@style/PaymentActionBar2</item>
+    </style>
+
+    <style name="CGActionBar2" parent="Theme.AppCompat.Light">
+        <item name="android:background">@android:color/black</item>
+        <item name="background">@android:color/black</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="PaymentActionBar2" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/cgActionbar</item>
+        <item name="background">@color/cgActionbar</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="DiscoverActionBar2" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/discoverActionbar</item>
+        <item name="background">@color/discoverActionbar</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="FooterStyle">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">#ff7477</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="full_screen_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.CustomThemes" parent="Theme.AppCompat.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+
+    </style>
+
+    <style name="AppTheme.CustomThemeclose" parent="Theme.AppCompat.Light">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="DialogSlideAnim" parent="@android:style/Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/DialogAnimation</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up_dialog</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_down</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <color name="cgActionbar">#F5F5F5</color>
+    <color name="discoverActionbar">#F5F5F5</color>
+    <color name="dividerColor">#F5F5F5</color>
+    <color name="black">#000000</color>
+    <color name="grey">#D8D8D8</color>
+    <color name="pink">#FF7373</color>
+
+
+    <style name="DrawerStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/DrawerStyleitems</item>
+    </style>
+
+    <style name="DrawerStyleitems">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/black</item>
+        <item name="android:listDivider">@color/dividerColor</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/pink</item>
+        <item name="colorControlActivated">@color/pink</item>
+    </style>
+
+</resources>

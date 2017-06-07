@@ -1,0 +1,18 @@
+{"status":"success",
+
+
+"data":{
+
+"num_products_of_user":1,
+"no_of_products":[{"size_id":1,"quantity":1}],
+"size":[{"eu_size":"30","us_size":"00","uk_size":"2","category_type":"C","quantity":1,"id":1,"size":"XXS"}],
+"id":1257,
+"user":{"id":1706,"zap_username":"Mahek97","profile_pic":"http:\/\/zapmob.cloudapp.net\/media\/uploads\/instaprofile\/mahek_971453010671.87.jpg","user_type":"zap_user"},
+
+"title":"tops",
+"description":"White forever 21 top",
+"commentCount":0,
+"likesCount":2,
+"liked_by_user":false,
+"images":["\/zapmedia\/uploads\/product_images\/original\/41561A0C-DC02-46C7-BC79-2F75CE367DA1_UHPFBrF.1000x1000.jpg"],"size_type":"EU","sale":"SOCIAL","product_category":"T-shirts","original_price":null,"listing_price":null,"discount":0,"upload_time":"2016-04-28T05:26:35.798818Z","style":"Chic","brand":"Forever21","occasion":"Beach Vacation","color":"White","age":null,"condition":null,"admired_by_user":false,"sold_out":false,"available":false,"deletable":true}}
+

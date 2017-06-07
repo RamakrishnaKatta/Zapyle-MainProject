@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="activity.About_us"
+    android:background="#FFFFFF"
+    android:id="@+id/aboutuslayout">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_centerHorizontal="true"
+        android:padding="2dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:layout_below="@+id/relativeLayout4"
+            android:layout_marginTop="5dp"
+            android:padding="3dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="We bet at some point you’ve looked at your closet and thought, “I have nothing to wear!”.  Well, we’re here to fix that."
+                android:id="@+id/textView16"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textSize="@dimen/margin_14"
+                android:textColor="#000000"
+                android:textAlignment="textEnd"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Zapyle is a fun, easy and social way to shop like a pro! We offer you the most stylish closets in the country to shop from and help you sell your own items that haven’t been getting a lot of love lately."
+                android:id="@+id/textView17"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textSize="@dimen/margin_14"
+
+                android:layout_below="@+id/textView16"
+                android:textColor="#000000"
+                android:textAlignment="textEnd"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="If you’ve always been a fan of style swapping with your fashion mates, you’re going to love Zapyle. Because now, you can do it for real! Simply list your things for sale and off they go. Once you’re done with the deal, put that into buying the stuff that you really want."
+                android:id="@+id/textView18"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:textSize="@dimen/margin_14"
+
+                android:layout_below="@+id/textView17"
+                android:textColor="#000000"
+                android:textAlignment="textEnd"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Zapyle isn’t your average shopping platform though, it’s a place where incredible women share their love for fashion and receive a whole bunch of love as well. Try it!. you’ll soon realize that giving your wardrobe a makeover has never been simpler or more fun!"
+                android:textSize="@dimen/margin_14"
+
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/textView18"
+                android:textColor="#000000"
+                android:textAlignment="textEnd"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

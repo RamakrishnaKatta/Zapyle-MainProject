@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8000000"
+    android:orientation="vertical"
+    android:id="@+id/tutorialPage"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/topLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/topLayout_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/pageTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_35"
+                    android:layout_marginRight="@dimen/margin_45"
+                    android:layout_marginLeft="@dimen/margin_45"
+                    android:text="Switch between products and stores using these tabs."
+                    android:textColor="@android:color/white"
+                    android:gravity="center"
+                    android:textSize="@dimen/margin_14" />
+
+
+                <LinearLayout
+                    android:id="@+id/clickholder"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/margin_30"
+                    android:layout_marginBottom="@dimen/margin_30"
+                    android:layout_marginLeft="@dimen/margin_70"
+                    android:layout_marginRight="@dimen/margin_70"
+                    android:layout_marginTop="@dimen/margin_25"
+                    android:background="@android:color/transparent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/productview_click"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#D0D0D0"
+                        android:gravity="center"
+                        android:text="PRODUCTS"
+                        android:textColor="#979797"
+                        android:textSize="@dimen/margin_12" />
+
+                    <TextView
+                        android:id="@+id/closetview_click"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@android:color/black"
+                        android:gravity="center"
+                        android:text="DESIGNERS"
+                        android:textAllCaps="true"
+                        android:textColor="#979797"
+                        android:textSize="@dimen/margin_12" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/second_tut_holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/topLayout"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="@dimen/margin_40"
+                android:layout_height="@dimen/margin_40"
+                android:layout_alignParentLeft="true"
+                android:layout_margin="@dimen/margin_5"
+                android:background="@drawable/circle_tutorial_bg" />
+
+            <TextView
+                android:layout_width="@dimen/margin_50"
+                android:layout_height="@dimen/margin_20"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/margin_5"
+                android:layout_marginTop="@dimen/margin_10"
+                android:background="@drawable/oval_tutorial_bg" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/images_tut_holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/second_tut_holder">
+
+            <TextView
+                android:layout_width="@dimen/margin_90"
+                android:layout_height="@dimen/margin_120"
+                android:layout_margin="@dimen/margin_10"
+                android:background="#D0D0D0" />
+
+
+            <TextView
+                android:layout_width="@dimen/margin_90"
+                android:layout_height="@dimen/margin_120"
+                android:layout_margin="@dimen/margin_10"
+                android:background="#D0D0D0" />
+
+
+            <TextView
+                android:layout_width="@dimen/margin_90"
+                android:layout_height="@dimen/margin_120"
+                android:layout_margin="@dimen/margin_10"
+                android:background="#D0D0D0" />
+
+
+            <TextView
+                android:layout_width="@dimen/margin_90"
+                android:layout_height="@dimen/margin_120"
+                android:layout_margin="@dimen/margin_10"
+                android:background="#D0D0D0" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tut_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/images_tut_holder"
+            android:layout_marginBottom="@dimen/margin_15"
+            android:layout_marginLeft="@dimen/margin_50"
+            android:layout_marginRight="@dimen/margin_50"
+            android:layout_marginTop="@dimen/margin_15"
+            android:gravity="center"
+            android:text="Swipe horizontally to get a glimpse of the store."
+            android:textColor="@android:color/white" />
+
+
+        <TextView
+            android:id="@+id/close_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tut_text"
+            android:layout_margin="@dimen/margin_35"
+            android:gravity="center"
+            android:text="Close Tutorial"
+            android:textColor="#FF9B9B" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/close_button"
+            android:layout_marginBottom="@dimen/margin_30"
+            android:layout_marginRight="@dimen/margin_10"
+            android:layout_marginTop="@dimen/margin_15"
+            android:gravity="bottom">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_10"
+                    android:text="Scroll back to the top of the page"
+                    android:textColor="@android:color/white" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/uparrow"
+                    app:backgroundTint="#D0D0D0" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:id="@+id/summarylayout"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <!--<ScrollView-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/summaryScrollview"-->
+        <!--android:layout_above="@+id/summary_bottom_layout"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:background="#FFFFFF"-->
+        <!--android:orientation="vertical"-->
+        <!--&gt;-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_above="@+id/summary_bottom_layout">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Awesome!"
+                    android:textColor="#9B9B9B"
+                    android:textSize="@dimen/text_size_xxlarge"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/margin_30"
+                    android:layout_marginBottom="@dimen/margin_20"
+                    android:textStyle="normal"
+                    />
+
+
+                <TextView
+                    android:id="@+id/summarymessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Your order has been placed successfully."
+                    android:textColor="#4A4A4A"
+                    android:textSize="@dimen/text_size_medium"
+                    android:gravity="center"
+                    android:layout_marginRight="@dimen/margin_20"
+                    android:layout_marginLeft="@dimen/margin_20"
+                    android:paddingTop="@dimen/margin_10"
+                    android:paddingRight="@dimen/margin_10"
+                    android:paddingLeft="@dimen/margin_10"
+                    android:textStyle="normal"
+                    />
+                <TextView
+                    android:id="@+id/cod_cash"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:gravity="center"
+                    android:textColor="#4A4A4A"
+                    android:textSize="@dimen/text_size_xxlarge"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/margin_2"
+                    android:layout_marginBottom="@dimen/margin_20"/>
+
+                <TextView
+                    android:id="@+id/view_order"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="VIEW ORDER DETAILS"
+                    android:textColor="#9B9B9B"
+                    android:textSize="@dimen/text_size_small"
+                    android:gravity="center"
+                    android:layout_marginBottom="@dimen/margin_20"
+                    android:layout_marginRight="@dimen/margin_20"
+                    android:layout_marginLeft="@dimen/margin_20"
+                    android:padding="@dimen/margin_10"
+                    android:textStyle="normal"
+                    />
+            </LinearLayout>
+
+            <!--<View-->
+                <!--android:layout_width="70dp"-->
+                <!--android:layout_height="2dp"-->
+                <!--android:background="#EDEDED"-->
+                <!--android:layout_marginTop="@dimen/margin_2"-->
+                <!--android:layout_marginBottom="@dimen/margin_2"-->
+                <!--/>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:orientation="vertical"-->
+                <!--android:layout_weight="1">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Get a discount of ₹200"-->
+                    <!--android:textColor="#4A4A4A"-->
+                    <!--android:textSize="@dimen/text_size_xxlarge"-->
+                    <!--android:gravity="center"-->
+                    <!--android:layout_marginTop="@dimen/margin_25"-->
+                    <!--android:layout_marginBottom="@dimen/margin_15"-->
+                    <!--android:textStyle="bold"-->
+                    <!--/>-->
+
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Invite a friend and get her to buy or upload an item on Zapyle to get a discount of ₹200 on this order."-->
+                    <!--android:textColor="#4A4A4A"-->
+                    <!--android:textSize="@dimen/text_size_medium"-->
+                    <!--android:gravity="center"-->
+                    <!--android:layout_marginTop="@dimen/margin_10"-->
+                    <!--android:layout_marginBottom="@dimen/margin_15"-->
+                    <!--android:layout_marginRight="@dimen/margin_20"-->
+                    <!--android:layout_marginLeft="@dimen/margin_20"-->
+                    <!--android:textStyle="normal"-->
+                    <!--/>-->
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Hurry! Offer valid only for the next 48 hours."-->
+                    <!--android:textColor="#4A4A4A"-->
+                    <!--android:textSize="@dimen/text_size_small"-->
+                    <!--android:gravity="center"-->
+                    <!--android:layout_marginTop="@dimen/margin_10"-->
+                    <!--android:layout_marginBottom="@dimen/margin_20"-->
+                    <!--android:layout_marginRight="@dimen/margin_20"-->
+                    <!--android:layout_marginLeft="@dimen/margin_20"-->
+                    <!--android:textStyle="normal"-->
+                    <!--/>-->
+            <!--</LinearLayout>-->
+
+
+        </LinearLayout>
+
+
+    <!--</ScrollView>-->
+
+    <LinearLayout
+        android:id="@+id/summary_bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="false"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="#B4B4B4"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="gotofeed"
+            android:text="CONTINUE SHOPPING "
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_medium"
+            android:layout_weight="1.2"/>
+        <TextView
+            android:id="@+id/invite"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="#ff7477"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="gotofeed"
+            android:text="INVITE FRIENDS"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_medium"
+            android:layout_weight="0.8"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

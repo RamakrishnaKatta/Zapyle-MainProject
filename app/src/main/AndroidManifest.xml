@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.zapyle.zapyle"
+    android:versionCode="65"
+    android:versionName="1.7">
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- if using CleverTap SDK v3.0.0+ -->
+    <permission
+        android:name="com.zapyle.zapyle.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.zapyle.zapyle.permission.C2D_MESSAGE" />
+    <!-- <service -->
+    <!-- android:name="com.clevertap.android.sdk.FcmTokenListenerService"> -->
+    <!-- <intent-filter> -->
+    <!-- <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/> -->
+    <!-- </intent-filter> -->
+    <!-- </service> -->
+
+
+    <!-- <service -->
+    <!-- android:name="com.clevertap.android.sdk.FcmMessageListenerService"> -->
+    <!-- <intent-filter> -->
+    <!-- <action android:name="com.google.firebase.MESSAGING_EVENT"/> -->
+    <!-- </intent-filter> -->
+    <!-- </service> -->
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SET_DEBUG_APP" />
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission
+        android:name="android.permission.RECORD_AUDIO"
+        tools:node="remove" />
+    <!-- <permission -->
+    <!-- android:name="com.appifiedtech.app.push.main.permission.C2D_MESSAGE" -->
+    <!-- android:protectionLevel="signature" /> -->
+
+    <uses-permission android:name="com.appifiedtech.app.push.main.permission.C2D_MESSAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name="application.MyApplicationClass"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="CLEVERTAP_ACCOUNT_ID"
+            android:value="466-K95-464Z" />
+        <meta-data
+            android:name="CLEVERTAP_TOKEN"
+            android:value="5c3-664" />
+        <meta-data
+            android:name="GCM_SENDER_ID"
+            android:value="id:1038239410729" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+        <!-- <meta-data android:name="io.branch.sdk.TestMode" android:value="true" /> -->
+        <meta-data
+            android:name="io.branch.sdk.BranchKey"
+            android:value="key_live_ldkXgZOU0rwWtmErlwGMymcpqDkFdsZ9" />
+        <!-- <meta-data -->
+        <!-- android:name="io.branch.sdk.BranchKey" -->
+        <!-- android:value="key_test_lch4f3VJYDxYtmttdwQ8pkfdEtduaGjc" /> -->
+
+        <activity
+            android:name="activity.SplashScreen"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name="recievers.ConnectivityDetector_Receiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.zapyle.zapyle" />
+            </intent-filter>
+        </receiver>
+        <!-- <service -->
+        <!-- android:name="com.clevertap.android.sdk.GcmMessageListenerService" -->
+        <!-- android:exported="false" > -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.google.android.c2dm.intent.RECEIVE" /> -->
+        <!-- </intent-filter> -->
+        <!-- </service> -->
+
+        <service
+            android:name="com.clevertap.android.sdk.GcmTokenListenerService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="notifications.MyGcmListenerService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="notifications.MyInstanceIDListenerService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID" />
+            </intent-filter>
+        </service> <!-- [END instanceId_listener] -->
+
+        <service
+            android:name="notifications.MyGcmRegistrationService"
+            android:exported="false" />
+
+        <meta-data
+            android:name="CLEVERTAP_NOTIFICATION_ICON"
+            android:value="icon" /> <!-- name of your file in the drawable directory without the file extension. -->
+
+        <service
+            android:name="services.UploadService"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="activity.About_us"
+            android:label="@string/title_activity_about_us"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2" />
+        <activity
+            android:name="activity.searchFeedPage"
+            android:label="@string/title_activity_feed_page"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="activity.profile"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.zapyle.com"
+                    android:pathPrefix="/profile"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="activity.CommentActivity"
+            android:label="@string/title_activity_comment"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="activity.LoginHandler"
+            android:label="@string/title_activity_login_handler"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.CropActivity"
+            android:label="@string/title_activity_crop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.FAQ"
+            android:label="@string/title_activity_faq"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2" />
+        <activity
+            android:name="activity.LikersActivity"
+            android:label="@string/title_activity_likers"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2" />
+        <activity
+            android:name="activity.product"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.zapyle.com"
+                    android:pathPrefix="/product/"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="activity.SummaryPage"
+            android:label="@string/title_activity_Addresspage"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"
+            android:theme="@style/DiscoverActionBarStyle2" />
+        <activity
+            android:name="activity.ForceUpdate"
+            android:label="@string/title_activity_Addresspage"
+            android:screenOrientation="portrait"
+            android:theme="@style/CGActionBarStyle2" />
+        <activity
+            android:name="payment.CreditDebitCardDetails"
+            android:label="@string/CreditDebitCardDetails"
+            android:screenOrientation="portrait"
+            android:theme="@style/paymentActionBarStyle2" />
+        <activity
+            android:name="activity.FailedSummaryPage"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2" />
+        <activity
+            android:name="activity.Onboarding2"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.Onboarding3"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.Onboarding4"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.ConditionGuide"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2" />
+        <activity
+            android:name="activity.BuyerProtection"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2" />
+        <activity
+            android:name="activity.Parallax"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.Myaccountpage"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2" />
+        <activity
+            android:name="activity.upload"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2"
+            android:windowSoftInputMode="adjustPan|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.zapyle.com"
+                    android:pathPrefix="/sell"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="activity.SizeguideActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2" />
+        <activity
+            android:name="activity.Category"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2" />
+        <activity
+            android:name="activity.Mypreference"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2" />
+        <activity
+            android:name="activity.Mysales"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2" />
+        <activity
+            android:name="activity.Myorderlist"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2" />
+        <activity
+            android:name="activity.Myinfopage"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="activity.AddAddress"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="activity.MyLoves"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2" />
+        <activity
+            android:name="activity.MyAddress"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="activity.Colors"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2" />
+        <activity
+            android:name="activity.Occasion"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2" />
+        <activity
+            android:name="activity.Style"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2" />
+        <activity
+            android:name="activity.BrandList"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2" />
+        <activity
+            android:name="activity.eventList"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2" />
+        <activity
+            android:name="activity.upload1"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="activity.upload2"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+        <activity
+            android:name="activity.Myzapcash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2" />
+        <activity
+            android:name="activity.Mybankcash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2" />
+        <activity
+            android:name="activity.AlertActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2" />
+        <activity
+            android:name="activity.SizeGuide"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2" />
+        <activity
+            android:name="activity.Authenticity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2" />
+        <activity
+            android:name="activity.ShippingReturns"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2" />
+        <activity
+            android:name="activity.PopupOverlay"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.CustomThemes" />
+        <activity
+            android:name="activity.PopupOverlay1"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.CustomThemeclose" />
+        <activity
+            android:name="activity.earn_cash"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2" />
+        <activity
+            android:name="activity.Notifications"
+            android:label="@string/title_activity_notifications"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2" />
+        <activity
+            android:name="activity.discover"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.zapyle.com"
+                    android:pathPrefix="/discover"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="activity.filter_activity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="activity.Signup"
+            android:screenOrientation="portrait"
+            android:theme="@style/CGActionBarStyle2"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="activity.EmailLogin"
+            android:screenOrientation="portrait"
+            android:theme="@style/CGActionBarStyle2"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="activity.ForgotPassword"
+            android:screenOrientation="portrait"
+            android:theme="@style/CGActionBarStyle2"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- <receiver -->
+        <!-- android:name="com.appvirality.android.AppviralityInstallReferrerReceiver" -->
+        <!-- android:exported="true"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.android.vending.INSTALL_REFERRER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="021ef2a1441208dc3256178fe4d79867f7a70b36" />
+
+        <activity android:name="activity.Style$searchactivity" />
+        <activity
+            android:name="activity.searchnew"
+            android:label="@string/title_activity_searchnew"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="activity.Cart"
+            android:label="@string/title_activity_shop_cart"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="activity.chat"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="activity.download_app"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="activity.shoppingcartnew"
+            android:label="@string/title_activity_shoppingcartnew"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="activity.ZoomActivity"
+            android:label="@string/title_activity_shoppingcartnew"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="activity.BuyPage"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.zapyle.com"
+                    android:pathPrefix="/buy"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="activity.MainFeed"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="activity.filtered"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="activity.OrderTrack"
+            android:label="@string/title_activity_shoppingcartnew"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="activity.category_list"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2" />
+        <activity
+            android:name="activity.MainBrandList"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2" />
+
+        <!-- <service android:name="com.uxcam.service.HttpPostService" /> -->
+        <service
+            android:name="services.FeedService"
+            android:exported="false" />
+        <service
+            android:name="services.GcmRegService"
+            android:exported="false" />
+
+        <activity
+            android:name="com.clevertap.android.sdk.InAppNotificationActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity android:name="activity.Branch_Redirect_Activity">
+            <!--<meta-data android:name="io.branch.sdk.auto_link_request_code" android:value="@integer/AutoDeeplinkRequestCode" />-->
+            <intent-filter android:autoVerify="true">
+                <data
+                    android:host="open"
+                    android:scheme="zapyle://" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="bnc.lt"
+                    android:pathPrefix="/WxOl"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name="io.branch.referral.InstallListener"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <!-- <receiver -->
+        <!-- android:name="recievers.InstallReferrerReceiver" -->
+        <!-- android:exported="true"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.android.vending.INSTALL_REFERRER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+
+        <activity
+            android:name="activity.GenericMain"
+            android:screenOrientation="portrait"
+            android:theme="@style/DiscoverActionBarStyle2"></activity>
+        <activity
+            android:name="in.juspay.godel.PaymentActivity"
+            android:hardwareAccelerated="true"
+            android:label="Processing your payment"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"></activity>
+        <activity android:name="activity.JuspayMainActivity"></activity>
+    </application>
+
+</manifest>

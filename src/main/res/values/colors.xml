@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="access" type="color">#00E5FF</item>
+   <color name="viewport">#F5F5F5</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="color_4a">#4a4a4a</color>
+    <color name="color_9b">#9b9b9b</color>
+</resources>

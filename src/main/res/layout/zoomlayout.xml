@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/zoom_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4a4a4a"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/pinchToZoom"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="PINCH TO ZOOM"
+        android:textColor="#9B9B9B"
+        android:layout_marginBottom="@dimen/margin_15"
+        android:textSize="@dimen/text_size_small"/>
+
+    <LinearLayout
+        android:id="@+id/indicator_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/zoom_viewpager"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/margin_30"
+        android:layout_gravity="center_horizontal|bottom">
+
+        <!--<TextView-->
+        <!--android:layout_gravity="bottom"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center"-->
+        <!--android:text="PINCH TO ZOOM"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="@dimen/text_size_small"-->
+        <!--android:layout_marginBottom="@dimen/margin_30"/>-->
+
+    </LinearLayout>
+
+
+
+    <Viewholder.ExtendedViewPager
+        android:id="@+id/zoom_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center">
+
+    </Viewholder.ExtendedViewPager>
+
+
+
+    <ImageView
+        android:onClick="closeZoom"
+        android:layout_width="@dimen/margin_43"
+        android:layout_height="@dimen/margin_43"
+        android:layout_gravity="right"
+        android:src="@drawable/close"
+        android:padding="@dimen/margin_12"
+        android:background="@android:color/black"/>
+
+</FrameLayout>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="answers-shim-0.0.4">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/build/intermediates/exploded-aar/io.branch.external.answersshim/answers-shim/0.0.4/res" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/exploded-aar/io.branch.external.answersshim/answers-shim/0.0.4/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.branch.external.answersshim/answers-shim/0.0.4/1e2f5c0b6a3c06a707ca7edea5508eb0ee15ed26/answers-shim-0.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

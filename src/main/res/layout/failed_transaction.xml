@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_20"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin_40"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:text="Oops!"
+            android:gravity="center"
+            android:textSize="@dimen/text_size_xxxlarge"
+            android:textColor="#9B9B9B"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_25"
+            android:layout_marginLeft="@dimen/margin_25"
+            android:layout_marginBottom="@dimen/margin_20"
+            android:text="Something went wrong. Please try paying via a different payment mode."
+            android:gravity="center"
+            android:textSize="@dimen/text_size_medium"
+            android:padding="@dimen/margin_10"
+            android:textColor="#4A4A4A"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="false"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <TextView
+            android:id="@+id/tryAgain"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="#B4B4B4"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="gotofeed"
+            android:text="TRY AGAIN"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_medium"
+            android:layout_weight="0.8"/>
+        <TextView
+            android:id="@+id/payment_options"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="#ff7477"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="PAYMENT OPTIONS"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_medium"
+            android:layout_weight="1.2"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

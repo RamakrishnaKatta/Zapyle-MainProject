@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/black"
+    android:gravity="center">
+
+    <ImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profilePic"
+        android:layout_width="@dimen/margin_70"
+        android:layout_height="@dimen/margin_70"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin_20"
+        android:scaleType="centerCrop"
+        android:src="@drawable/prof_placeholder"/>
+
+    <TextView
+        android:id="@+id/profilename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ritu Kumar"
+        android:layout_marginRight="@dimen/margin_15"
+        android:layout_marginLeft="@dimen/margin_15"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/margin_22"
+        android:layout_gravity="center"
+        android:textAllCaps="true"/>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/margin_15"
+        android:text="“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec neque tellus. Ut vitae sapien lacus.”"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="@dimen/margin_20"/>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/margin_10">
+            <TextView
+                android:id="@+id/admiringCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="67"
+                android:textSize="@dimen/margin_20"
+                android:textColor="#FF7373"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Admiring"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/margin_14"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/margin_10">
+            <TextView
+                android:id="@+id/admirersCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="67"
+                android:textSize="@dimen/margin_20"
+                android:textColor="#FF7373"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Admirers"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/margin_14"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/margin_10">
+            <TextView
+                android:id="@+id/lisingCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="67"
+                android:textSize="@dimen/margin_20"
+                android:textColor="#FF7373"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Products"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/margin_14"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/margin_15"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/profileEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/margin_12"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_10"
+            android:background="@drawable/profile_admirebg"
+            android:paddingLeft="@dimen/margin_16"
+            android:paddingRight="@dimen/margin_16"
+            android:paddingTop="@dimen/margin_5"
+            android:paddingBottom="@dimen/margin_5"
+            />
+
+        <TextView
+            android:id="@+id/profileadmire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admire"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/margin_12"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_10"
+            android:background="@drawable/profile_admirebg"
+            android:paddingLeft="@dimen/margin_12"
+            android:paddingRight="@dimen/margin_12"
+            android:paddingTop="@dimen/margin_5"
+            android:paddingBottom="@dimen/margin_5"
+            />
+        <TextView
+            android:id="@+id/profileShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/margin_12"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_10"
+            android:background="@drawable/profile_admirebg"
+            android:paddingLeft="@dimen/margin_12"
+            android:paddingRight="@dimen/margin_12"
+            android:paddingTop="@dimen/margin_5"
+            android:paddingBottom="@dimen/margin_5"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>
